@@ -1,3 +1,4 @@
+#本题和647题基本一样
 # 2D的Dynamic Programming table和center expansion都是palindrom的经典解法
 # 两者都是O（n^2）但是center expansion实际上比DP快一些
 # center expansion比brute force的O（n^3）好在brute force是每一个potential substring的头尾组合一共n^2种
