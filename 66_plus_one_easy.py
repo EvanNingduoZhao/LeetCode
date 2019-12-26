@@ -1,4 +1,5 @@
 # a much simpler version of 加法竖式 但注意如果input是[9,9,9,9]一类的话，要在进位运算的最后在输出list的最前面加一个1
+# 这道题教我们如何简单地运用carry
 def plusOne(digits):
     """
     :type digits: List[int]
