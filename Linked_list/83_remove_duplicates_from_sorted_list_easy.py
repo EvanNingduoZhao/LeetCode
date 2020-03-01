@@ -16,4 +16,4 @@ class Solution:
                         current.next = None
                 else:
                     current = current.next
-            rturn head
+            return head
