@@ -1,20 +1,3 @@
-# for i in range(6):
-#     print(i)
-
-# l=['s','p','s','b']
-# s=str(l)
-#
-# print(2**3)
-#
-# for _ in range(5):
-#     print('!')
-
-# b=a=[[1,2,3]]
-# b=a
-# a[0][0]=2
-# a[0][0]=10
-# print(b)
-
 class Node:
     def __init__(self,data):
         self.data = data
@@ -138,30 +121,111 @@ class LinkedList:
             print(currentNode.data)
             currentNode = currentNode.next
 
+    # my answer
+    # my code is longer since I work on 4 nodes as a group once
+    def swapPairs(self, head):
+        # handle the case where list length is 0 or 1
+        if head is None or head.next is None:
+            return head
+        elif head.next.next is None:
+            newhead = head.next
+            head.next.next = head
+            head.next = None
+            return newhead
+        else:
+            groupStart=head
+            curr = head
+            # the second node should be returned as head after task completed
+            head = curr.next
+            # while loop terminates if no node left in the next group
+            while curr:
+                print('enter while loop')
+                temp1 = curr
+                # check if there is only one node left in the next group
+                if curr.next:
+                    print('if curr.next')
+                    temp3 = curr.next.next
+                    # check if there are only two nodes left in the next group
+                    if temp3:
+                        print('if temp3')
+                        curr.next.next = curr
+                        curr.next = temp3
+                        curr = temp3
+                        # check if there are only three nodes left in the next group
+                        if curr.next:
+                            groupStart=curr.next.next
+                            print('last if')
+                            curr.next.next = curr
+                            temp1.next = curr.next
+                            grouplast = curr
+                            if groupStart:
+                                if groupStart.next:
+                                    curr.next = groupStart.next
+                                else:
+                                    curr.next = groupStart
+                            else:
+                                curr.next = None
+                            curr = groupStart
+                            print('after finish one group, curr is')
+                            print(curr.data)
+                        else:
+                            return head
+                    else:
+                        grouplast.next = curr.next
+                        curr.next.next = curr
+                        curr.next = None
+                        return head
+
+                else:
+                    return head
+            return head
+
+    # This is a neater solution from Discussion, it only work on two nodes as a group once
+    # It can be confusing that return dummy.next is returning the head node of the original linked list
+    # Just follow the comments below to find out why return dummy.next is actually correct
+    # refer to https://www.youtube.com/watch?v=naG4uXpmVAU to learn more about object, address, variables and stuff in Python
+
+    def swapPairs1(self, head):
+        # so here dummy and p are initialized to store the adress of Node(0)
+        dummy = p = Node(0)
+        # changing dummy.next is actually changing Node(0).next, so p.next is also changed
+        dummy.next = head
+        while head and head.next:
+            tmp = head.next
+            head.next = tmp.next
+            tmp.next = head
+            # same logic applies here, changing p.next is actually changing Node(0).next, so dummy.next is also changed
+            p.next = tmp
+            head = head.next
+            # however, from now on, p doesn't store the address of Node(0) anymore
+            # so from now on, change p.next will not affect dummy.next
+            p = tmp.next
+        return dummy.next
+
+firstNode = Node(2)
+secondNode = Node(5)
+thirdNode = Node(3)
+forthNode = Node(4)
+fifthNode = Node(6)
+sixthNode = Node(2)
+seventhNode = Node(2)
+eightthNode = Node(3)
+ninthNode = Node(4)
+tenthNode = Node(5)
+eleventhNode = Node(6)
+linkedList1 = LinkedList()
+linkedList1.insertEnd(firstNode)
+linkedList1.insertEnd(secondNode)
+linkedList1.insertEnd(thirdNode)
+linkedList1.insertEnd(forthNode)
+linkedList1.insertEnd(fifthNode)
+linkedList1.insertEnd(sixthNode)
+linkedList1.insertEnd(seventhNode)
+
+#linkedList1.printList()
 
 
-# secondNode = Node(5)
-# thirdNode = Node(10)
-# forthNode = Node(20)
-# import copy
-# p = Node(2)
-# p.data=[0,0,0]
-# print('id of p',id(p))
-# dummy = p
-# print('id of dummy',id(dummy))
-# p.data[1]=1
-# print(p.data)
-# print(dummy.data)
-
-love = [1,2,3]
-print('id of [1,2,3]',id([1,2,3]))
-#love = 2
-print('id of love',id(love))
-
-
-def foo(a):
-    a[2] = "nothing"
-
-bar = ['You', 'know', 'something', 'Jon', 'Snow']
-foo(bar)
-print(bar)
+ans = linkedList1.swapPairs1(linkedList1.head)
+ansList = LinkedList()
+ansList.insertEnd(ans)
+#ansList.printList()
