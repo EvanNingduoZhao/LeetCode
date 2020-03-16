@@ -165,3 +165,15 @@ def foo(a):
 bar = ['You', 'know', 'something', 'Jon', 'Snow']
 foo(bar)
 print(bar)
+
+
+print('LLLLLllkkkkkkkkkkkkkkk')
+print(7//3)
+
+list1 = [1,2,3]
+print(list1)
+list1.append(None)
+print(list1)
+
+a='1234'
+print(a[::-2])

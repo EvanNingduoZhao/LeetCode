@@ -132,57 +132,67 @@ class LinkedList:
             currentNode = currentNode.next
 
 
+# since we are also using the Node and Linkedlist class in this singlyLinkedList_learning_notes
+# file as modules that we can use when running programs in other files that need to utilize
+# Node or Linkedlist objects. However, due to the nature of python, if we don't include this
+# if __name__ == '__main__': line, if we import the Node or the Linkedlist class from this file
+# in other files, while we run that other file, python will also run everything in this file.
+# adding this if __name__ == '__main__': basically means to tell python that only if this file is
+# executed as the main program, then run the following content. since when we import the two
+# classes from this file in other files, the main program is not this file anymore,
+# python will not run the following content
 
-# Node => data, next
-firstNode = Node('john')
-linkedList = LinkedList()
-print('This is the intial state when a Linkedlist instance is just created:')
-print(linkedList.__dict__)
-linkedList.insertEnd(firstNode)
+if __name__ == '__main__':
+    # Node => data, next
+    firstNode = Node('john')
+    linkedList = LinkedList()
+    print('This is the intial state when a Linkedlist instance is just created:')
+    print(linkedList.__dict__)
+    linkedList.insertEnd(firstNode)
 
-secondNode = Node("Ben")
-linkedList.insertEnd(secondNode)
-linkedList.printList()
-print('insert Matthew as the head of the linked list:')
-thirdNode = Node("Matthew")
-linkedList.insertHead(thirdNode)
-linkedList.printList()
-print('This is the state after three nodes were inserted:')
-# note that the only attribute of a singly linked list is i ts head
-# and in this case the head is an node instance
-print(linkedList.__dict__)
+    secondNode = Node("Ben")
+    linkedList.insertEnd(secondNode)
+    linkedList.printList()
+    print('insert Matthew as the head of the linked list:')
+    thirdNode = Node("Matthew")
+    linkedList.insertHead(thirdNode)
+    linkedList.printList()
+    print('This is the state after three nodes were inserted:')
+    # note that the only attribute of a singly linked list is i ts head
+    # and in this case the head is an node instance
+    print(linkedList.__dict__)
 
 
-linkedList1 = LinkedList()
-Node1= Node(10)
-Node2 = Node(20)
-linkedList1.insertEnd(Node1)
-linkedList1.insertEnd(Node2)
-linkedList1.printList()
-print('insert 15 at position 1:')
-Node3 = Node(15)
-linkedList1.insertAt(Node3,1)
-linkedList1.printList()
+    linkedList1 = LinkedList()
+    Node1= Node(10)
+    Node2 = Node(20)
+    linkedList1.insertEnd(Node1)
+    linkedList1.insertEnd(Node2)
+    linkedList1.printList()
+    print('insert 15 at position 1:')
+    Node3 = Node(15)
+    linkedList1.insertAt(Node3,1)
+    linkedList1.printList()
 
-print("try to insert a node at a position index larger than linked list length:")
-linkedList1.insertAt(Node3,100)
+    print("try to insert a node at a position index larger than linked list length:")
+    linkedList1.insertAt(Node3,100)
 
-print("delete the last node:")
-linkedList1.deleteEnd()
-linkedList1.printList()
+    print("delete the last node:")
+    linkedList1.deleteEnd()
+    linkedList1.printList()
 
-print('insert 100 at the end:')
-Node4 = Node(100)
-linkedList1.insertEnd(Node4)
-linkedList1.printList()
+    print('insert 100 at the end:')
+    Node4 = Node(100)
+    linkedList1.insertEnd(Node4)
+    linkedList1.printList()
 
-print('delete the node at position 1:')
-linkedList1.deleteAt(1)
-linkedList1.printList()
+    print('delete the node at position 1:')
+    linkedList1.deleteAt(1)
+    linkedList1.printList()
 
-print('delete the first node:')
-linkedList1.deleteAt(0)
-linkedList1.printList()
+    print('delete the first node:')
+    linkedList1.deleteAt(0)
+    linkedList1.printList()
 
-print('try to delete a node at position index larger than linked list length:')
-linkedList1.deleteAt(100)
+    print('try to delete a node at position index larger than linked list length:')
+    linkedList1.deleteAt(100)
