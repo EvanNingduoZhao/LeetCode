@@ -16,4 +16,6 @@ class Solution:
                 # 为了让右边的先被pop 我们先push左 再push右
                 stack.append(node.left)
                 stack.append(node.right)
+        # 对于res[::-1] 到底是怎么回事，具体看这个
+        # https://stackoverflow.com/questions/13365424/what-does-result-1-mean
         return res[::-1]

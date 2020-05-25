@@ -9,6 +9,7 @@ class BinaryTree:
         self.root = Node(root)
 
     # These are the recursive implementation of the three ways to traverse a binary tree
+    # The return value of this function is a string and user need to explicitly use print() to print it out
     def print_tree(self, traversal_type):
         if traversal_type == "preorder":
             return self.preorder_print(self.root,"")
@@ -17,9 +18,32 @@ class BinaryTree:
         elif traversal_type == "postorder":
             return self.postorder_print(self.root, "")
         else:
-            print("Traversal type" + str(traversal_type) + "is not supported.")
+            print("Traversal type " + str(traversal_type) + " is not supported.")
             return False
 
+    # A few things to notice:
+    # 1. why we also take start as an input parameter? if start only refers to the root node of the Binary Tree
+    #    that we would like to print, then use start as an additional parameter would be meaningless since
+    #    we already got self, and the root node can be accessed by self.root. However, here we are building a
+    #    recursive function, the start parameter will also be used to refer to the root node of the numerous
+    #    sub-trees that we need to encounter during the execution process. Therefore, in order to be able to
+    #    call the function itself with the left or right child of the current root as the root of the subtrees.
+    #    we have to include start as a parameter
+    # 2. traversal is a string. Since we don't know the size of the BST, it would be inappropriate to use a
+    #    fixed size data structure like list. Also since traversal is a string that need to be gradually built
+    #    up as we go through the recursive process. basically, each recursive call need to be able to take the
+    #    current state of traversal as an input, then potentially perform some modifications to it, and then
+    #    return the (modified) traversal back to its caller. Therefore, traversal also needs to be included as a
+    #    parameter
+    # 3. preoder_print, inorder_print and postorder_print are actually helper functions for the print_tree function
+    #    we use them as helpers was not just because it structurely more clear to have helper functions. In fact,
+    #    it would be impossible to write print_tree without helper functions. The reason is: for print_tree the
+    #    the root is fixed, its just the root of the binary tree we want to print. So we can't have a "start"
+    #    parameter for print_tree. However, as mentioned above, each of the helper functions does need a "start"
+    #    parameter since the root node (of subtress) for each recursive call is different. Therefore, we need
+    #    to have print_tree with only the root of the whole binary tree and to say:"ok, our objective is to
+    #    print the whole binary tree" and the three helper functions to do the dirty work, making the recursive
+    #    calls
     def preorder_print(self, start, traversal):
         """node itself -> left subtree ->right subtree"""
         if start:
@@ -108,7 +132,7 @@ class BST:
         right_height = self.height(node.right)
         return 1+max(left_height, right_height)
 
-    # this recursive impletation use the same idea as the height function
+    # this recursive implementation uses the same idea as the height function
     # the size of a tree equals to the size of it left subtree + size of its right subtree + 1
     def size_recursive(self,node):
         if node is None:
@@ -135,7 +159,7 @@ class BST:
         if self.root:
             is_satisfied = self._is_bst_satisfied(self.root,self.root.value)
             # since the helper method below only returns false when violation found
-            # is the binary tree satisfy the properties of BST
+            # if the binary tree satisfy the properties of BST
             # the variable is_satisfied will be None, since the helper function returned nothing
             if is_satisfied is None:
                 return True
