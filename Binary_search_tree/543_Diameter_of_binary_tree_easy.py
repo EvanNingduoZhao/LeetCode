@@ -1,7 +1,7 @@
 #首先这道题最重要的思想是，题中所说的所谓longest path肯定是某一个node的左子树里最低的leaf和右子树里最低
 #的leaf之间的path。如果这个node正好是root，那么这个path就是pass through root的，如果不是root，则这个path
 # 则不path through root。验证一下就可以发现，对于每一个node自己的这个longest path就是这个node的left child
-# 的height加上right child的height。因此我们只需要用recursive的手段来access一般所有的tree node，给每个
+# 的height加上right child的height。因此我们只需要用recursive的手段来access一遍所有的tree node，给每个
 # tree node都计算出这个longest path，并和目前的max longest path比较，该替换替换就可以了
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
@@ -21,6 +21,7 @@ class Solution:
 
         #这里height是一个inner function
         #其实height只是在基本的recursive求一个Binary Tree的fuction的基础上加了3行
+        #这里用的不是double recursion 只是single recursion
         def height(root):
             if root is None:
                 return 0
