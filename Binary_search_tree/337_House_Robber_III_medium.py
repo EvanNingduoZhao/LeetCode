@@ -10,7 +10,7 @@
 # 对于上面第二种情况，不偷这个node，那么这个path的总收益则等于
 # max（不偷左子node为起点的path总收益，偷左子node为起点的path总收益）+
 # max（不偷右子node为起点的path总收益，偷右子node为起点的path总收益）
-
+# https://www.youtube.com/watch?v=-i2BFAU25Zk 这个方法的解说在这个视频里
 
 class Solution:
     def rob(self, root: TreeNode) -> int:
