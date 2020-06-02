@@ -1,3 +1,30 @@
+class Queue(object):
+     def __init__(self):
+         self.items=[]
+
+     def enqueue(self,item):
+         self.items.insert(0,item)
+
+     # 这里我们能够用pop（）是因为我们每次enqueue的时候是从list最前面加进去的
+     # 那么list最后边的也就是被pop出来的肯定是最先加进去的
+     # 而我们往stack里加的时候是用的append，append是从最后面加，所以同样是pop
+     # 但是stack里pop出来的是最后加进去的
+     def dequeue(self):
+         if not self.is_empty():
+             return self.items.pop()
+
+     def is_empty(self):
+         return len(self.items)==0
+
+     def peek(self):
+         if not self.is_empty():
+             return self.items[-1].value
+
+     def _len_(self):
+         return self.size()
+
+     def size(self):
+         return len(self.items)
 class Node:
     def __init__(self,value):
         self.value = value
@@ -17,6 +44,8 @@ class BinaryTree:
             return self.inorder_print(self.root, "")
         elif traversal_type == "postorder":
             return self.postorder_print(self.root, "")
+        elif traversal_type == "BFS":
+            return self.BFS_print(self.root)
         else:
             print("Traversal type " + str(traversal_type) + " is not supported.")
             return False
@@ -67,6 +96,26 @@ class BinaryTree:
             traversal = self.postorder_print(start.right,traversal)
             traversal += (str(start.value) + '-')
         return traversal
+
+    def BFS_print(self,start):
+        if start is None:
+            return
+        # 如果没有Queue class直接写的话，可以写
+        # queue=[]
+        # queue.insert(0,start)
+        queue=Queue()
+        queue.enqueue(start)
+
+        traversal = ''
+        while queue.is_empty() is False:
+            traversal+= str(queue.peek()) + '-'
+            node=queue.dequeue()
+            if node.left:
+                queue.enqueue(node.left)
+            if node.right:
+                queue.enqueue(node.right)
+        return traversal
+
 
 # Now we start working with binary search trees, they are a special kind of binary trees
 # where left child of a node is smaller than node itself and right child is bigger than node itself
@@ -201,6 +250,7 @@ tree.root.right.right.right = Node(8)
 print(tree.print_tree('preorder'))
 print(tree.print_tree('inorder'))
 print(tree.print_tree('postorder'))
+print(tree.print_tree('BFS'))
 
 bst = BST()
 bst.insert(4)

@@ -1,3 +1,4 @@
+#这道题第二遍做的时候用recursion写
 class Solution:
     #对于一个node而言，它要么没有child，要么有两个children
     #如果有两个children而言有两种情况
