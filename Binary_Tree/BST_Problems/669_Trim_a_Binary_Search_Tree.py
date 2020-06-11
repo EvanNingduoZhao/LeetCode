@@ -8,7 +8,7 @@ class Solution:
         if root.val < L:
             root = root.right
             root = self.trimBST(root, L, R)
-        #如果root的value真好等于下限，那root可以保留但是root的left subtree要去掉
+        #如果root的value正好等于下限，那root可以保留但是root的left subtree要去掉
         #继续检查并trim以root的right child为root的subtree
         elif root.val == L:
             root.left = None
