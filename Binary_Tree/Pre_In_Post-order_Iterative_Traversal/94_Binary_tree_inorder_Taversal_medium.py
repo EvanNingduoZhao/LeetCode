@@ -20,7 +20,7 @@ class Solution:
             while root:
                 stack.append(root)
                 root = root.left
-            # 在遍历BST的整个过程中只要stack有一刻为空了，那就说明这个BST遍历完了
+            # 在遍历BST的整个过程，如果这一刻stack为空了，那就说明这个BST遍历完了
             if not stack:
                 return res
             #node自己
