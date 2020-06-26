@@ -52,7 +52,7 @@ class MaxHeap:
 
     def __floatUp(self,index):
         #先求出要被floatUp的这个new element的parent的index
-        parent=(index+1)//2
+        parent=(index-1)//2
         #如果这个要被floatUp的element本事就已经是heap的root了，那什么也不用做
         if index==0:
             return
