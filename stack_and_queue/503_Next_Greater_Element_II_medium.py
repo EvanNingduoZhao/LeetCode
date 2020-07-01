@@ -16,6 +16,7 @@ class Solution:
             stack=[0]
             #先让所有elements对应的答案都等于-1
             #这样pass through nums两遍过后还是-1的就都就应该是-1
+            #题中要求的是对于找不到对应的next greater element的element，return -1
             res=[-1]*len(nums)
             #pass through 第一遍，跟739题思路一样
             for i in range(1,len(nums)):

@@ -14,7 +14,6 @@ def heap_sort(nums):
     #i是用来keep track of heap的last element的index的
     #不用真的traverse到nums的开头，因为如果nums从第二个到最后一个element都在自己正确的位置上了
     #那剩下的第一个element肯定也是在正确的位置上的
-    print("Extraction Phase")
     for i in range(n-1,0,-1):
         __swap(nums,0,i)
         #nums[i]是heap的last element，所以heap是nums[:i+1]

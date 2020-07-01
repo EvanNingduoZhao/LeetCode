@@ -20,10 +20,10 @@ class MyStack:
         """
         Removes the element on top of the stack and returns that element.
         """
-        #最后被push进stack 1的在stack1的最左边
-        #因此我们从stack1的最右边开始pop
-        #没pop出来一个就push进stack2的最左边
-        #直到stack1里只剩下最后push进来的那一个value
+        #最后被push进queue 1的在queue1的最左边
+        #因此我们从queue1的最右边开始pop
+        #每pop出来一个就push进queue2的最左边
+        #直到queue1里只剩下最后push进来的那一个value
         #我们pop那一个value就达到目的了
         #Note：就算queue2里原本就有东西，也还是要把queue1里的按顺序转移到queue2里
         if self.queue1:

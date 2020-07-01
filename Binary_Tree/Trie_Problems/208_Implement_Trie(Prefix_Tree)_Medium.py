@@ -22,6 +22,7 @@ class Trie:
         Inserts a word into the trie.
         """
         # Note:root is not a char, 它的每一个child才是各个prefix或者word的开头char
+        # 即root是一个* *的children们才开始是字母
         curr = self.root
         for char in word:
             index = self.charToIndex(char)

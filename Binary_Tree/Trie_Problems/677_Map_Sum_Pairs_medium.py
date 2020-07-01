@@ -6,7 +6,7 @@
 
 #所以basically，对于trie里存的单词，两个开头一样结尾不一样的单词在开头是重合的，对于两个开头不一样，结尾一样
 #的单词，两者没有重合的部分。因此不会出现一个node需要有两个vals的情况
-# （比如e不会有两个val 一个是apple的另一个是pple的）实际情况应该是apple和pple连着的是两个不同的e node
+# （比如e不会有两个val 一个是apple的另一个是pple的）实际情况应该是appl和ppl连着的是两个不同的e node
 
 class TrieNode:
     def __init__(self):

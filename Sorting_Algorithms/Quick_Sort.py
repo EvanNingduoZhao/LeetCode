@@ -32,12 +32,21 @@ def __get_pivot(nums,low,high):
             pivot=low
     return pivot
 
+import random
+def __get_pivot_random(low,high):
+    return random.randint(low,high)
+
 def __swap(nums,i,j):
     nums[i],nums[j]=nums[j],nums[i]
 
 
 def __partition(nums,low,high):
-    pivotIndex=__get_pivot(nums,low,high)
+    # 如果想用low high mid对应的elements里的median作为pivot就uncomment this line
+    #pivotIndex=__get_pivot(nums,low,high)
+
+    # 如果想每次都randomly choose pivot就保持用这行
+    pivotIndex = __get_pivot_random(low, high)
+
     pivotValue=nums[pivotIndex]
     # 为了让后续的代码好写一些，我们先把pivotIndex指向的值swap到sublist的开头
     # 因为如果不这样的话，在two pointer traverse的时候有一个pointer碰到了pivotIndex

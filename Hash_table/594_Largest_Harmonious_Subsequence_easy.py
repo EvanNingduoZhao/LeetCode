@@ -9,7 +9,7 @@ class Solution:
             record={nums[0]:1}
             res=0
             for num in nums[1:]:
-                #¥边traverse 边用dict记录每个value出现了多少次
+                #边traverse 边用dict记录每个value出现了多少次
                 if num in record:
                     record[num]+=1
                 else:

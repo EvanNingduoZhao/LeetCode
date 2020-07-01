@@ -82,7 +82,8 @@ class Solution:
             # 但是具体这个pivot index指向的在unique里的这个数字具体在nums里出现了多少次
             # 得到count这个dict里去找，pivot_value指的就是出现了多少次
             pivot_value = count[unique[pivot_index]]
-            # 我们要sort的还是unique，因为最后return的出现次数最多的那个数，而不是它们出现的次数
+            # 我们要sort的还是unique里的一部分，因为最后return的出现次数最多的那k个数，
+            # 而不是它们出现的次数
             # 但是我们sort unqiue不是根据unique里的element的大小来sort
             # 而是根据unique里的element在count里被记录出现的次数来sort它们
 
@@ -92,7 +93,7 @@ class Solution:
             for j in range(low, high + 1):
                 # 到count里找j在unique里指向的那个元素在nums里出现了几次
                 j_count = count[unique[j]]
-                #因为我们要找前k多次数的，所以要降序排列的sort unqiue
+                #因为我们要找前k多次数的，所以要降序排列地sort unqiue
                 # 降序排列，大于pivot的在左边，小于pivot在右边
                 # 所以这里用的是大于号
                 if j_count > pivot_value:
