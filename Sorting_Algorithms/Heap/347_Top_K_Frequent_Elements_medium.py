@@ -1,8 +1,10 @@
-#这道题是用heap的方法做的
-#如果用quick select的话会更快，等学了quick select以后再做一遍
+#这道题一共有三种做法，第一种minheap O(nlog(k))，第二种quick select, average O(n) worst O(n^2)，
+# 第三种bucket sort O(n)
 
+
+# 第一种方法，用minheap
 #先用一个dict把每个数字在nums里出现了多少次计算一遍，这个过程take O（n）
-#在用heap求出来dict里value的前k名
+#再用heap求出来dict里value的前k名
 #这里要注意以下几点：
 #1.求一堆数里的最大的k个其实应该用minHeap是最高效的，因为用minheap的话，可以先一股脑push进去
 # k个elements，之后heap里就维持着k个数量的element，每次见到一个新的，先push到heap里，在从heap
@@ -47,7 +49,7 @@ class Solution:
                 res.append(key)
             return res
 
-#第二种办法 用quick select
+#第二种办法 用quick select,time complexity average case是O(n)
 import random
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -142,3 +144,37 @@ class Solution:
 
         __quick_select(unique, 0, len(unique) - 1, k)
         return unique[:k]
+
+#第三种办法，用bucket sort，这个方法的time complexity也是O(n)
+# 这个方法和451题基本是一样的思想，即先traverse nums，用count这个dict存下来每个unique item出现了几次
+#再用一个hashtable作为buckets，traverse一遍count，这次新的hashtable buckets的key是出现的次数
+# value是一个list，里面是在nums里出现了key那么多次的items。
+
+# note：一个nums里的item在nums最少出现1次，最多出现len(nums)次（即nums里全都是这一个数字）
+
+#最后用一个variable freq，从len(nums)开始逐次递减到1，只要buckets里有freq这个key就把buckets[freq]
+# 对应的那个list里的items都append到res里。直到res里有了k个elements为止就return res
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        count = {}
+        for num in nums:
+            if num not in count:
+                count[num] = 1
+            else:
+                count[num] += 1
+
+        buckets = {}
+        for key, freq in count.items():
+            if freq not in buckets:
+                buckets[freq] = [key]
+            else:
+                buckets[freq].append(key)
+
+        res = []
+        for freq in range(len(nums), 0, -1):
+            if freq in buckets:
+                for item in buckets[freq]:
+                    res.append(item)
+                    k -= 1
+                    if k == 0:
+                        return res
