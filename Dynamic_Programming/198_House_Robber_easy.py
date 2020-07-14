@@ -119,4 +119,5 @@ class Solution:
                 current=max(nums[a]+prev2,prev1)
                 prev2=prev1
                 prev1=current
-            return max(prev2,prev1)
+            #最后return prev1就行因为prev2就等于prev1
+            return prev1
