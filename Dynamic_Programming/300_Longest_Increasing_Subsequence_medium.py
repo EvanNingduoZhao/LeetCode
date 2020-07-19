@@ -19,7 +19,7 @@ class Solution:
         #这里的i和j就是遵循note里的i和j，注意针对一个j，我们要把在它前面的所有item都作为i尝试
         #一下，看看nums[j]能不能被append在以nums[i]为结尾的longest increasing subsequence后面
         #形成一个更长的increasing subsequence，因此在traverse j前面的所有i时，record[j]的value是
-        #会可能被不断更新成一个更大的值的，知道traverse完j前面的所有item我们才能确定record[j]最后的正确值
+        #会可能被不断更新成一个更大的值的，直到traverse完j前面的所有item我们才能确定record[j]最后的正确值
         for j in range(1,len(nums)):
             for i in range(0,j):
                 #因为题目中要的是increasing subsequence,那么首先nums[j]必须比nums[i]大
