@@ -31,7 +31,7 @@ class Solution:
                     mid_star=mid-1
                     #如果mid和mid——star的值相等的话，那么说明single element在它们右边
                     #那么因为mid是它们这一对中靠右的那一个，因此下一个有嫌疑是single element
-                    #的应该是mid+1，因此left=mid=1
+                    #的应该是mid+1，因此left=mid+1
                     if nums[mid]==nums[mid_star]:
                         left = mid + 1
                     #相反，如果mid和mid——star的值不相等的话，那么说明single element在它们左边
@@ -39,6 +39,7 @@ class Solution:
                     #所以是从包括mid-1这个偶数index在内的向左的所有items有嫌疑，因此right=mid-1
                     else:
                         right = mid-1
+
                 # 如果mid是偶数index，那么mid—star应该是它后面那个
                 else:
                     mid_star=mid+1
@@ -65,4 +66,6 @@ class Solution:
             # 但是在right-left=1时，mid=left，而我们最多只有left=mid+2，left值增加了2，不够3
             # 在right-left=2时，mid=left+1，而我们最多只有left=mid+2，left值增加了3，不够4
             # 所以两者永远错不开，因此whileloop最后一定以left==right结尾，因此return谁都可。
+
+            #题干里保证input里一定有single element，因此不需要进行post processing
             return nums[left]

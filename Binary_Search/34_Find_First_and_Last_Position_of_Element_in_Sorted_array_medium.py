@@ -55,12 +55,12 @@ class Solution:
         def __searchEnd(nums, target, start, end):
             while start < end:
                 mid = start + (end - start) // 2
-                if nums[mid] < target:
-                    start = mid + 1
-                elif nums[mid] > target:
+                #因为我们start就是从nums里的第一个target开始
+                #我们最初的range就是从第一个target到nums的结尾
+                #在找Endposition时我们没有机会碰到比target小的值，因此没有必要cover nums[mid]<target
+                if nums[mid] > target:
                     end = mid - 1
                 else:
-                    #上面的if 和elif的逻辑和上一个helper function都是一样的
                     # 这里要注意，因为我们要找的是ending position，那如果mid是等于target的话，
                     # ending position一定是就是mid或者在mid右侧，因为我们让start=mid
                     start = mid

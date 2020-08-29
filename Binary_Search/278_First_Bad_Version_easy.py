@@ -120,3 +120,4 @@ class Solution:
         # 综上，在所有情况中，只要start和end一重合，他俩指向的就一定是正确结果
 
         return start
+        # 这道题保证有一个错误版本 因此不用进行post processing

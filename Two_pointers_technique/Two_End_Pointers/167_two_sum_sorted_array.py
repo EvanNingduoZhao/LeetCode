@@ -20,6 +20,9 @@ def twoSum(numbers, target):
         left, right = 0, len(numbers) - 1
         #如果left和right错开了那就证明这个list里面没有目标组合
         while left < right:
+            #能进来这个if的left和right已经都是被check过left<right的
+            #所以不存在left=right的情况出现，可能经过下面的右减1或者左加1以后left会等于right
+            #但是那样的话它们就进不来while loop了
             if numbers[left] + numbers[right] == target:
                 return [left + 1, right + 1]
             if numbers[left] + numbers[right] > target:

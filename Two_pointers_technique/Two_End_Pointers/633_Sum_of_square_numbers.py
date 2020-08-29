@@ -6,6 +6,7 @@ def judgeSquareSum(c):
     #那A和B一定都是小于等于C的square root的
     #所以我们要进行search的sorted array其实就应该是从0到c的square root的这个连续的list
     i = 0
+    #int()是只舍不进
     j = int(math.sqrt(c))
     print(j)
     #其余的方法和167题一致

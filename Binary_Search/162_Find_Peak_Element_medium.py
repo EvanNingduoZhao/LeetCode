@@ -24,7 +24,7 @@ class Solution:
                     end=mid
             #while loop terminate的时候一定是start和end重合时，可以验证重合时两个pointer指向的一定都是peak
             #真的有peak的就不说了，假设inputlist全部都是值递增的，那么我们要return的peak应该就是inputlist的最后
-            #一个item（如果是递减的就要return第一个item。因为题中说可以assume这个inputarray的第一个的前面的item
+            #一个item（如果是递减的就要return第一个item。因为题中说可以assume这个input array的第一个的前面的item
             # 和最后一个的后面的item都是无限小的）。观察以后可以发现，start是会跑到最后去和end在end的初始位置重合的、
             # 因为就算是纯递增或纯递减也是有可以return的解的，所以不需要post processing
             return start

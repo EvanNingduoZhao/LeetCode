@@ -13,7 +13,7 @@
 #我们把这个方法叫做方法2，下面写的叫方法1
 #首先方法1里push一定只take O(1), 方法2里pop一定只take O(1)
 #但是方法1里的pop只要pop过一次，stack2里有东西了以后，直到stack2被pop完之前，每次pop都只take O(1)
-#这样根据Amortized Analysis的角度，pop也只take O(1)
+#这样根据Amortized Analysis(摊销分析)的角度，pop也只take O(1)
 #关于Amortized Analysis的O(1)的推导详见
 #https://leetcode.com/problems/implement-queue-using-stacks/solution/
 #看这个里面Approach 2的Solution
