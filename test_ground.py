@@ -66,3 +66,9 @@
 
 print(int(2.9))
 print(int(6//(-132)))
+
+nums=[-1,-2,-3,0,1,5,6,7]
+for i,val in enumerate(nums):
+    print(i,val)
+
+
