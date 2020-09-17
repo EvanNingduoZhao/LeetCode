@@ -10,11 +10,12 @@ class Solution:
             while stack:
                 node=stack.pop()
                 if node.left:
-                    stack.append(node.left)
                     #每当碰到一个新的left node的时候，要检查一下它是不是一个leaf node，如果是就把它的val
                     #加到sum上
                     if not node.left.left and not node.left.right:
                         sum+=node.left.val
+                    else:
+                        stack.append(node.left)
                 if node.right:
                     stack.append(node.right)
             return sum

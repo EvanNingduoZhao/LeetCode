@@ -1,3 +1,4 @@
+#这是一道大公司常考题 一定要会 重点看！！！
 class Solution:
     # 自己写的，思想和下面答案的iterative using parent pointers是基本一样的
     # 看一下答案的解释就能理解自己当时写这个code的想法了
@@ -106,6 +107,8 @@ class Solution:
             q = parent[q]
         return q
 
+
+#以下这个方法很难理解
 # Approach 3: Iterative Solution without Parent Pointers
 # 第三种解法也是iterative的但是不用parent pointers，虽然时间和空间复杂度和第二种方法
 # 		都是还在同一个数量级的，但是第三种方法空间复杂度的常数小一些，因此更快一些。这种方法的本质即
@@ -206,6 +209,9 @@ class Solution:
 #直接到这个link里看解释吧
 #这里可以总结的一个比较重要的思路就是，不管是在BT还是BST中两个node的lowest common ancestor一定
 #在这两个node中间，即这两个node肯定是一个在LCA的左子树里，另一个node在LCA的右子树里
+
+#这个recursion是bottom up的，因此越靠下的node，只要符合right left mid三个里有两个true的前提，就会被越早return
+#所以我们碰到的第一个right left mid三个里有两个true的node就一定是要找的LCA
 
 #对于极端情况，这两个node是在一条线上的话，即一个是另一个的直接一条线上的祖先，那么他俩的LCA就是辈分高的那个
 

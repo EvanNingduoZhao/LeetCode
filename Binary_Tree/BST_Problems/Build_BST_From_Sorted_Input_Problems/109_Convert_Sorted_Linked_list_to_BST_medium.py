@@ -46,6 +46,9 @@ class Solution:
         return node
 
 #以上这种方法的time complexity是 O（NlogN）具体的推导见下面link里第一种方法的complexity analysis
+#简单的推导就是这个方法的time cost基本上都是源自用来找每个chunck的mid node的two pointer
+#在没切时一次two pointer时n，切成两半以后每一段是n/2，一共还是n，由此类推分到每一段只有1个node时，一共分了logn次
+#每次总共都是n所以一共是nlogn
 # space complexity是O（logN）这个比较好理解，用recursion解决的问题，主要的space complexity就是
 # 来及与recursion stack，而对于解决binary tree问题的recursion的recursion stack而言，它所占的空间
 # 等于Binary tree的height，而因为题目中的BST是height balanced的，所以它的height一定等于logN

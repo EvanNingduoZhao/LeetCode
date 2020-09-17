@@ -105,3 +105,29 @@ class Solution:
             # 的complement是以这个node为止的path sum，那也不能算在result里了。所以要把对应的value-1
             cache[so_far + root.val] -= 1
         return
+
+    #以下这个code是2020.9 复习时自己重写的上面那个method,这个code是怎么会是直接参照上面的code的comment就好
+    class Solution:
+        def pathSum(self, root: TreeNode, sum: int) -> int:
+            self.counter = 0
+            self.record = {}
+            self.target = sum
+            self._helper(root, 0)
+            return self.counter
+
+        def _helper(self, root, curr_sum):
+            if not root:
+                return
+            else:
+                curr_sum += root.val
+                if curr_sum == self.target:
+                    self.counter += 1
+                if curr_sum - self.target in self.record:
+                    self.counter += self.record[curr_sum - self.target]
+                if curr_sum in self.record:
+                    self.record[curr_sum] += 1
+                else:
+                    self.record[curr_sum] = 1
+                self._helper(root.left, curr_sum)
+                self._helper(root.right, curr_sum)
+                self.record[curr_sum] -= 1

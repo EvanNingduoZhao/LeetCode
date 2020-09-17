@@ -94,7 +94,7 @@ class LinkedList:
             print('Invalid Position')
             return
         if position == 0:
-            self.deleteEnd()
+            self.deleteHead()
             return
         currentNode = self.head
         currentPosition = 0
@@ -153,46 +153,53 @@ if __name__ == '__main__':
     secondNode = Node("Ben")
     linkedList.insertEnd(secondNode)
     linkedList.printList()
-    print('insert Matthew as the head of the linked list:')
-    thirdNode = Node("Matthew")
-    linkedList.insertHead(thirdNode)
-    linkedList.printList()
-    print('This is the state after three nodes were inserted:')
-    # note that the only attribute of a singly linked list is i ts head
-    # and in this case the head is an node instance
-    print(linkedList.__dict__)
-
-
-    linkedList1 = LinkedList()
-    Node1= Node(10)
-    Node2 = Node(20)
-    linkedList1.insertEnd(Node1)
-    linkedList1.insertEnd(Node2)
-    linkedList1.printList()
-    print('insert 15 at position 1:')
-    Node3 = Node(15)
-    linkedList1.insertAt(Node3,1)
-    linkedList1.printList()
-
-    print("try to insert a node at a position index larger than linked list length:")
-    linkedList1.insertAt(Node3,100)
-
-    print("delete the last node:")
-    linkedList1.deleteEnd()
-    linkedList1.printList()
-
-    print('insert 100 at the end:')
-    Node4 = Node(100)
-    linkedList1.insertEnd(Node4)
-    linkedList1.printList()
-
-    print('delete the node at position 1:')
-    linkedList1.deleteAt(1)
-    linkedList1.printList()
-
-    print('delete the first node:')
-    linkedList1.deleteAt(0)
-    linkedList1.printList()
-
-    print('try to delete a node at position index larger than linked list length:')
-    linkedList1.deleteAt(100)
+    dummy=cur=Node(-1)
+    dummy.next=firstNode
+    print("dummy",dummy.next.data)
+    print("cur",cur.next.data)
+    dummy=dummy.next
+    print("dummy after", dummy.next.data)
+    print("cur after", cur.next.data)
+    # print('insert Matthew as the head of the linked list:')
+    # thirdNode = Node("Matthew")
+    # linkedList.insertHead(thirdNode)
+    # linkedList.printList()
+    # print('This is the state after three nodes were inserted:')
+    # # note that the only attribute of a singly linked list is i ts head
+    # # and in this case the head is an node instance
+    # print(linkedList.__dict__)
+    #
+    #
+    # linkedList1 = LinkedList()
+    # Node1= Node(10)
+    # Node2 = Node(20)
+    # linkedList1.insertEnd(Node1)
+    # linkedList1.insertEnd(Node2)
+    # linkedList1.printList()
+    # print('insert 15 at position 1:')
+    # Node3 = Node(15)
+    # linkedList1.insertAt(Node3,1)
+    # linkedList1.printList()
+    #
+    # print("try to insert a node at a position index larger than linked list length:")
+    # linkedList1.insertAt(Node3,100)
+    #
+    # print("delete the last node:")
+    # linkedList1.deleteEnd()
+    # linkedList1.printList()
+    #
+    # print('insert 100 at the end:')
+    # Node4 = Node(100)
+    # linkedList1.insertEnd(Node4)
+    # linkedList1.printList()
+    #
+    # print('delete the node at position 1:')
+    # linkedList1.deleteAt(1)
+    # linkedList1.printList()
+    #
+    # print('delete the first node:')
+    # linkedList1.deleteAt(0)
+    # linkedList1.printList()
+    #
+    # print('try to delete a node at position index larger than linked list length:')
+    # linkedList1.deleteAt(100)

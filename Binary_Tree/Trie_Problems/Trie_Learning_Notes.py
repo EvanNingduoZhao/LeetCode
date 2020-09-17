@@ -62,7 +62,7 @@ class Trie:
             pCrawl = pCrawl.children[index]
         #Note:光是这一系列characters都在这个Trie里还不够，这一系列character的结尾在trie里还得是一个
         # isEndOfWord的node才行
-        return pCrawl != None and pCrawl.isEndOfWord
+        return pCrawl.isEndOfWord
 
     # driver function
 

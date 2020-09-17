@@ -1,231 +1,46 @@
-class Node:
-    def __init__(self,data):
-        self.data = data
-        # we don't put next as a parameter since we always want next to be None when initializing and
-        # Node instance
-        self.next = None
 
-class LinkedList:
-    def __init__(self):
-        # Linkedlist constructor has no parameters, since we will use the insert method to put head node
-        # in. So we always set head to be None when initializing an Linkedlist instance.
-        self.head = None
-
-    # traverse the entire linked list to find its length
-    def listLength(self):
-        currentNode = self.head
-        length = 0
-        while currentNode is not None:
-            length +=1
-            currentNode = currentNode.next
-        return length
-
-    def isListEmpty(self):
-        if self.head is None:
-            return True
-        else:
-            return False
-
-    def insertHead(self,newNode):
-        temporaryNode = self.head
-        self.head = newNode
-        self.head.next = temporaryNode
-        del temporaryNode
-
-    # position is the position of the node (node B) in the current linked list that will be after the newNode after
-    # it got inserted
-    def insertAt(self, newNode, position):
-        # make sure the position entered is valid
-        if position < 0 or position > self.listLength():
-            print("Invalid Position")
-            return
-        # position == 0 is a special case since at this point we don't have previousNode
-        # so we can just use the insertHead method that we already have
-        if position == 0:
-            self.insertHead(newNode)
-            return
-        currentNode = self.head
-        currentPosition = 0
-        while True:
-            if currentPosition == position:
-                previousNode.next = newNode
-                newNode.next = currentNode
-                break
-            # we have to get access to node B and point the next of the new node to it
-            # but when we are actually at node B, there's no way to go back to node A (the one should
-            # be before the new node after it got inserted) so we have to save node A in previousNode
-            previousNode = currentNode
-            currentNode = currentNode.next
-            currentPosition+=1
-
-    def insertEnd(self, newNode):
-        if self.head is None:
-            self.head = newNode
-        else:
-            lastNode = self.head
-            while True:
-                # notice we want to stop at the last node, if we go into the next of the last node
-                # which is None, then there is no way back
-                if lastNode.next is None:
-                    break
-                lastNode = lastNode.next
-            lastNode.next =  newNode
-
-    def deleteHead(self):
-        if self.isListEmpty() is False:
-            previousHead = self.head
-            self.head = self.head.next
-            previousHead.next = None
-        else:
-            print('Linked list is empty, Delete failed')
-
-    def deleteAt(self, position):
-        if position < 0 or position >= self.listLength():
-            print('Invalid Position')
-            return
-        if position == 0:
-            self.deleteEnd()
-            return
-        currentNode = self.head
-        currentPosition = 0
-        while True:
-            if currentPosition == position:
-                previousNode.next = currentNode.next
-                currentNode.next = None
-                break
-            previousNode = currentNode
-            currentNode = currentNode.next
-            currentPosition += 1
-
-    def deleteEnd(self):
-        # to accomplish the task of deleting the last node in a linked list:
-        # we have to accomplish two things:
-        # 1. find the last node
-        # 2. set the next of the second to the last node as None
-        # Therefore, in order to not lose access to the second to the last node after we reach
-        # the last node, we keep track of a previousNode variable
-        lastNode = self.head
-        while lastNode.next is not None:
-            previousNode = lastNode
-            lastNode = lastNode.next
-        previousNode.next = None
-
-    def printList(self):
-        if self.head is None:
-            print("List is empty")
-        currentNode = self.head
-        while True:
-            # notice if we write currentNode.next is None, then we will not be able to print the last node
-            if currentNode is None:
-                break
-            print(currentNode.data)
-            currentNode = currentNode.next
-
-    # my answer
-    # my code is longer since I work on 4 nodes as a group once
-    def swapPairs(self, head):
-        # handle the case where list length is 0 or 1
+# 第一种recursive的method
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+        # base case
+        #如果没有head，或者只剩下一个node了的话，就不需要swap了
         if head is None or head.next is None:
             return head
-        elif head.next.next is None:
-            newhead = head.next
-            head.next.next = head
-            head.next = None
-            return newhead
         else:
-            groupStart=head
-            curr = head
-            # the second node should be returned as head after task completed
-            head = curr.next
-            # while loop terminates if no node left in the next group
-            while curr:
-                print('enter while loop')
-                temp1 = curr
-                # check if there is only one node left in the next group
-                if curr.next:
-                    print('if curr.next')
-                    temp3 = curr.next.next
-                    # check if there are only two nodes left in the next group
-                    if temp3:
-                        print('if temp3')
-                        curr.next.next = curr
-                        curr.next = temp3
-                        curr = temp3
-                        # check if there are only three nodes left in the next group
-                        if curr.next:
-                            groupStart=curr.next.next
-                            print('last if')
-                            curr.next.next = curr
-                            temp1.next = curr.next
-                            grouplast = curr
-                            if groupStart:
-                                if groupStart.next:
-                                    curr.next = groupStart.next
-                                else:
-                                    curr.next = groupStart
-                            else:
-                                curr.next = None
-                            curr = groupStart
-                            print('after finish one group, curr is')
-                            print(curr.data)
-                        else:
-                            return head
-                    else:
-                        grouplast.next = curr.next
-                        curr.next.next = curr
-                        curr.next = None
-                        return head
+            secondNode = head.next
+            #先用recursive call把目前这一对node后面的所有node都成对swap了
+            #再让这一对的第一个node的next链接上后面的所有node 成对swap后的结果
+            head.next = self.swapPairs(secondNode.next)
+            # 最后在让这一对原本的第二个node的next链接到这一对原本的第一个node上
+            secondNode.next = head
+            # 完成这一组两个node的swap，return现在应该作为这一组中第一个node的secondNode
+            # 这个node会作为本次recursive call的结果被return给前一次recursive call
+            # 被链接到前一次recursive call中的head的next上
+            return secondNode
 
-                else:
-                    return head
-            return head
-
-    # This is a neater solution from Discussion, it only work on two nodes as a group once
-    # It can be confusing that return dummy.next is returning the head node of the original linked list
-    # Just follow the comments below to find out why return dummy.next is actually correct
-    # refer to https://www.youtube.com/watch?v=naG4uXpmVAU to learn more about object, address, variables and stuff in Python
-
-    def swapPairs1(self, head):
-        # so here dummy and p are initialized to store the adress of Node(0)
-        dummy = p = Node(0)
-        # changing dummy.next is actually changing Node(0).next, so p.next is also changed
-        dummy.next = head
+#第二种iterative的解法
+#这道题用iterative的解法要注意一个细节，假设现在有linked list A B C D，那么我们在把A和B换位置以后，变成B A
+#那么A的next实际上不应该是C而应该是等C和D换了位置以后的D，但是为了简化这个问题，不考虑那么多
+#我们在调换A B时先不考虑C和D的问题，直接让A的next先等于C，但是我们把A存到prevNode这个variable里
+#等开始调换C和D时，在让prevNode.next=D
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+        #对于从第二对node开始以后的node，它们都是有它们前面的node作为prevNode的
+        #那对于第一对node而言prevNode该怎么办呢？ 答案是自己造一个
+        # 让自己造的dummy这个node的next是head，再让prevNode=dummy
+        # 那么实际上现在prevNode和dummy就是一个node了，prevNode的next被改变时，dummy的也会被改变
+        # 那么实际上dummy起到了两个作用：第一是作为第一队node的prevNode，第二记录了被swap之后的linked list
+        # 的new head,即dummy.next 这也是我们最后要return的
+        dummy=ListNode(-1)
+        dummy.next=head
+        prevNode=dummy
         while head and head.next:
-            tmp = head.next
-            head.next = tmp.next
-            tmp.next = head
-            # same logic applies here, changing p.next is actually changing Node(0).next, so dummy.next is also changed
-            p.next = tmp
-            head = head.next
-            # however, from now on, p doesn't store the address of Node(0) anymore
-            # so from now on, change p.next will not affect dummy.next
-            p = tmp.next
+            firstNode=head
+            secondNode=head.next
+            prevNode.next=secondNode
+            firstNode.next=secondNode.next
+            secondNode.next=firstNode
+            #进行完上面的一系列操作后，把prevNode和head都往前移一个
+            prevNode=firstNode
+            head=firstNode.next
         return dummy.next
-
-firstNode = Node(2)
-secondNode = Node(5)
-thirdNode = Node(3)
-forthNode = Node(4)
-fifthNode = Node(6)
-sixthNode = Node(2)
-seventhNode = Node(2)
-eightthNode = Node(3)
-ninthNode = Node(4)
-tenthNode = Node(5)
-eleventhNode = Node(6)
-linkedList1 = LinkedList()
-linkedList1.insertEnd(firstNode)
-linkedList1.insertEnd(secondNode)
-linkedList1.insertEnd(thirdNode)
-linkedList1.insertEnd(forthNode)
-linkedList1.insertEnd(fifthNode)
-linkedList1.insertEnd(sixthNode)
-linkedList1.insertEnd(seventhNode)
-
-#linkedList1.printList()
-
-
-ans = linkedList1.swapPairs1(linkedList1.head)
-ansList = LinkedList()
-ansList.insertEnd(ans)
-#ansList.printList()

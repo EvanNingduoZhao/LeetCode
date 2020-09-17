@@ -36,4 +36,3 @@ class Solution:
             #node.right不能直接加到res里面去，因为有可能这个node.right是有left child的，所以在外层while loop的
             #最开始要先用小while loop将以node.right为root的这个sub tree的left child穷尽到底
             root = node.right
-        return res

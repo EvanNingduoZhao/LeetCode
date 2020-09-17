@@ -57,6 +57,7 @@ def isPalindrome(head):
         slow.next = node
         node = slow
         slow = nxt
+    #上面的while loop结束后，slow指向none，node指向原本linkedlist的最后一个node
     # compare the first and second half nodes
     while node: # while node and head:
         if node.val != head.val:
@@ -64,3 +65,29 @@ def isPalindrome(head):
         node = node.next
         head = head.next
     return True
+
+#这是第三种解法，纯用recursion
+class Solution:
+    def isPalindrome(self, head: ListNode) -> bool:
+        # fronterPointer在整个过程中从头到尾向后走
+        self.frontPointer = head
+
+        def _recursiveCheck(current_node):
+            if current_node:
+                #_recursiveCheck这个method进来一上来就是又一个recursive call
+                #所以直到current_node通过不断等于自己的next指向了None的时候，我们才会走过这if
+                #开始执行下一个if
+                if not _recursiveCheck(current_node.next):
+                    return False
+                #在第一次走到这个if时，current_node指向list的最后一个node，frontPointer没动过还是指向第一个node
+                #从此一个从尾到头，一个从头到尾，two pointer判定palindrome的过程开始了
+                if self.frontPointer.val != current_node.val:
+                    return False
+                #每次如果上面的if过了，就把frontPointer往前走一步，正好进入到stack的下一个recursive call时
+                # current_node也相当于是往回走了一步，两者永远是指向对称的node的
+                self.frontPointer = self.frontPointer.next
+            #这个return True有两个作用，第一是在current_node is None时return True
+            #第二是整个流程都走完了以后，如果没有碰到return False，就最后return true
+            return True
+
+        return _recursiveCheck(head)

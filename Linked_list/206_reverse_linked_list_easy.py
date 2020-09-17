@@ -143,6 +143,10 @@ class LinkedList:
             return head
         reversedhead = self.reverseList_recursive(head.next)
         head.next.next = head
+        #这里之所以要加这一行是因为虽然对于第二个以后的node A而言，在head等于A前面的一个node时，head.next.next=head
+        #把A的head往前指了，但是对于第一个node而言，没有它前面没有node帮它做head.next.next=head了
+        #因此如果没有这一行的话，最后return的linkedlist里第二个node指向第一个node，第一个node同时也指向第二个node
+        #这样就形成了cycle
         head.next = None
         return reversedhead
 

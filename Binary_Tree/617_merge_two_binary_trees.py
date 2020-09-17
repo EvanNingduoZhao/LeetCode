@@ -1,5 +1,6 @@
 #首先我们决定要用iterative还是recursive
-#所有两棵树，并且需要保留tree structure，return的是tree root的题都没办法用iterative
+#所有两棵树，并且需要保留tree structure，return的是tree root的题都没办法用iterative （实际上可以用但是要一次push或pop两个node
+# 不好想 不好操作，就用recursive就好了）
 #因为把tree nodes 一个个push到stack里面以后，光用这一个stack是无法还原整个tree的结构的，因为不同结构的树
 #在遍历方式一样的情况下也可能生成一样的stack
 # 226题能用iterative是因为它只有一棵树

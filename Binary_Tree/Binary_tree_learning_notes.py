@@ -90,7 +90,7 @@ class BinaryTree:
         return traversal
 
     def postorder_print(self, start, traversal):
-        """ left subtree -> node itself -> right subtree"""
+        """ left subtree -> right subtree -> node itself """
         if start:
             traversal = self.postorder_print(start.left, traversal)
             traversal = self.postorder_print(start.right,traversal)
