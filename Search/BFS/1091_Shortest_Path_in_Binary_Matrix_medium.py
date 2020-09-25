@@ -1,5 +1,6 @@
 #这道题是用BFS在grid中找最短路径的经典题目，必须要会
 #这个视频里讲解的是这道题的一个稍微简化版的题目，但是思路是一样的，
+#   https://www.youtube.com/watch?v=KiCBXu4P-2Y
 #可以从大概7分钟的地方开始看，前7分钟主要是将direaction vector的
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
