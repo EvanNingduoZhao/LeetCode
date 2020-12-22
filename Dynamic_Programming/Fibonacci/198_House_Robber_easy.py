@@ -40,6 +40,10 @@ class Solution:
         #所以在nums的len小于等于3时都得作为base case来单独讨论
         else:
             dp=[0 for _ in range(len(nums))]
+            # 注意这里dp[n]里存着的是rob第n+1个house和第n+1个house左边所有按照规则可以rob的house可以抢到的钱的总和
+            # 这里的前提是第n+1个house是必须rob的，所以对于dp[1]就是第二个house里的钱的数量，因为rob第二个house的话
+            # 第二个house左边就没有其他可以rob的了，对于dp[2]就是第三个house和第一个house里钱的数量的和，因为对于
+            # dp[2]而言第3个house必须rob，而这是第一个house就是不抢白不抢了
             dp[0]=nums[0]
             dp[1]=nums[1]
             dp[2]=nums[2]+nums[0]
@@ -92,7 +96,7 @@ class Solution:
 # 因此对于一个新见到的house A而言，假设它在nums里的index是a，那么在dp array，dp[a]里存的是
 # 假设如果A是最后一个房子，那么这个robber在包括A在内的所有的房子里一共能robb多少钱
 # （Note：这里是像上面的两个option说的那样，可以rob A也可以不rob A，哪个能抢更多钱就抢哪个）
-# 这个思路的dp array里的值和上面自己的思路里时有本质区别的，上面自己的思路里dp[a]存的是
+# 这个思路的dp array里的值和上面自己的思路里是有本质区别的，上面自己的思路里dp[a]存的是
 # 在assume必须rob A的前提下，再算上A左边的可以rob的，到A为止一共可以rob多少钱
 
 # 综上在这个新思路中，dp[a]=max(dp[a-2]+nums[a],dp[a-1])
@@ -111,7 +115,7 @@ class Solution:
             prev1=0
             #prev2就是dp[a-2]
             prev2=0
-            #a从第一个house开始，但因为这是prev1和prev2都是0
+            #a从第一个house开始，但因为这时prev1和prev2都是0
             #所以第一个current=nums[0]
             #当a=1时，prev1=nums[0],prev2=0,所以current实际上等于max(nums[1],nums[0])
             #到了a=2时，prev1和prev2都有值了，这个algortithm就开始像上面说的那样运行了
@@ -119,5 +123,7 @@ class Solution:
                 current=max(nums[a]+prev2,prev1)
                 prev2=prev1
                 prev1=current
-            #最后return prev1就行因为prev2就等于prev1
+            #最后return prev1，因为这时prev1实际上是被赋予了最后一个house是a时current的值
+            #而在这种方法里current的值代表的是包括a和a左边的所有house里（a rob或者不rob都可以）最多能拿到多少钱
+            #那么在a是最后一个house时，current就是题目里问的要求的值了
             return prev1

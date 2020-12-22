@@ -1,6 +1,6 @@
 #这一类题目给的input本质上是一个adjacency matrix，即matrix的row和col代表的是同一组人，比如M[1,1]的值就代表第二个人
 #和第二个人自己是不是好朋友。这样类似与adjacent matrix的input在处理上和大海里找小岛那种input是有很大区别的，解题手段也
-#因此不同。首先既然row和col指的是同一个组人，假设M是nxn的matrix，那么也就是说M描述的也就是这n个人之间的关系，我们
+#因此不同。首先既然row和col指的是同一组人，假设M是nxn的matrix，那么也就是说M描述的也就是这n个人之间的关系，我们
 # 只需要一个1D的，size是n的list来keep track of我们已经看过的人就够了。
 # 再具体的说
 #如果M[2,3]=1,代表第三个人和第四个人是好朋友，

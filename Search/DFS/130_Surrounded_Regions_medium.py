@@ -13,14 +13,9 @@ class Solution:
         directions=[(0,1),(1,0),(0,-1),(-1,0)]
         rows=len(board)
         cols=len(board[0])
-        visited=[]
         #把visited全部initialize成0
         #这里因为含有border的O的O区域是不能被换成X的，所以不能通过inplace mark的方式来keep track of visited的位置
-        for r in range(0,rows):
-            new=[]
-            for c in range(0,cols):
-                new.append(0)
-            visited.append(new)
+        visited=[[0 for _ in range(cols) for _ in range(rows)]]
         for r in range(0,rows):
             for c in range(0,cols):
                 if board[r][c]=='O' and visited[r][c]==0:

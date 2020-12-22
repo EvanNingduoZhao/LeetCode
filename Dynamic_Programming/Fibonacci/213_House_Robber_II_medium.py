@@ -5,7 +5,7 @@
 #也肯定不会漏掉任何一个rob第二个房子的方案的，两遍合起来就肯定什么都不会拉下了。
 
 class Solution:
-    def rob(self, nums: List[int]) -> int:
+    def rob(self,nums: List[int]) -> int:
         if not nums:
             return 0
         if len(nums) <= 3:
@@ -27,5 +27,5 @@ class Solution:
         # return结果更大的那个
         return max(rf_prev1,nrf_prev1)
 
-input=[2,2,4,3,2,5]
-print(rob(input))
+    input=[2,2,4,3,2,5]
+    print(rob(input))

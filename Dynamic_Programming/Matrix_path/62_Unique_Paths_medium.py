@@ -36,7 +36,7 @@ class Solution:
                 if n>=3:
                     for row in range(3,n+1):
                         #这里的index稍微有些复杂
-                        #因为row的value代表的是这个rol的第几个位置，如果row=3指的就是第三个位置
+                        #因为row的value代表的是这个col的第几个位置，如果row=3指的就是第三个位置
                         #但dp[0]对应的是每个col的第二个位置，因此dp[row-2]对应的才是每个col里row
                         #这个iterator index对应的位置
                         # 这里还是64题那个最优空间的思路，在计算新的dp[row-2]应该是多少时

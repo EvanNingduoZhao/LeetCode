@@ -47,11 +47,7 @@ class Solution:
                     maxProduct=max(maxProduct,dp[j]*dp[i-j])
                 dp.append(maxProduct)
             #当我们把dp这个array填满了以后
-            res=0
-            #把1和n-1，2和n-2这些初始分法都的总乘积都算出来，最后return最大的那个总乘积
-            for i in range(1,n//2+1):
-                res=max(res,dp[i]*dp[n-i])
-            return res
+            return dp[n]
 
 #以上这种方法的time是O(n^2) space是O(n)
 #在以上方法的基础上，再做一个数学上的观察，就可以得出一个time是O(n),space是O(1)的算法
