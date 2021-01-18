@@ -12,6 +12,7 @@ class Solution:
             return self.helper(s, t) or self.isSubtree(s.left, t) or self.isSubtree(s.right, t)
 
     #在每一个recursion call里我们只看一对对应位置是否都有node且node的val相等
+    #这个recursion就属于single recursion里传递boolean的那种
     def helper(self, s, t):
         #如果两个树一样，那么一个树的leaf node的对应位置一定也是另一棵树的leaf node
         #所以check两棵树是否一样，check到最底部的时候一定会出现s和t都是None

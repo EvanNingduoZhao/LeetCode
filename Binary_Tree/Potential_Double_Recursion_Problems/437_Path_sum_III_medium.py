@@ -76,6 +76,14 @@ class Solution:
     # hash-table. This makes sure that the number of complement paths returned always
     # correspond to paths that ended at a predecessor node.
     # 这个方法的讲解：https://leetcode.com/problems/path-sum-iii/discuss/91892/Python-solution-with-detailed-explanation
+
+    #这道题的code要这么写是有道理的，是可以遵循规律的，首先在这道题的思路中，我们要让每个node A
+    #都做一次从root到node A这个path的结尾，之后看在node A的众多祖先中有没有一个B是从root到B
+    #的path之和是等于A对应的complement的。那么既然每个node都要当一次A，那么目前A是哪个node就得
+    #作为recursion的一个param，但是题中给的function的signature又没有这个node A，因此我们要写helper
+    # function。这里的recursion构造实际上是采用了single recursion的第四种，即不返回东西，recursion
+    # 只起到遍历的作用，在遍历的过程中，我们不断update各种数据，这里要update的比较多有self.result,
+    # so_far, cache这三个
     def pathSum(self, root: TreeNode, sum: int) -> int:
         self.result = 0
 

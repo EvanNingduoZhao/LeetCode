@@ -35,7 +35,7 @@ U is the node;
 min(U^2, N) is the edges;	Follow up: https://www.1point3acres.com/bbs/thread-550871-1-1.html
 https://www.1point3acres.com/bbs/thread-555877-1-1.html			
 LeetCode # 1153	String Transforms Into Another String			Solution 1
-Solution 2 with graph			
+Solution 2 with Graph			
 LeetCode # 480	Sliding Window Median	O(nlog(k))	O(k)				
 LeetCode # 546	Remove Boxes	O(n^4)	O(n^3)	Youtube
 dp[i][j][k]: k means that there are k boxes which have the same color as boxes[j] following boxes[j]			
@@ -156,3 +156,27 @@ while problem_list[i]!=431:
     count+=1
     i+=1
 print(count)
+
+questions_i_found=[261,20,864,54,295,480,378,239,935,1383,1547,1004,934]
+graph_tree_problems=[261,864,54,278,200,236,934,117]
+DP_Greedy_problems=[935,1383,1547]
+design=[295]
+sliding_window=[480,239,1004]
+
+question_names=['string calculator']
+
+print("in my list but not in his list:")
+for i in questions_i_found:
+    if i not in problem_list:
+        print(i)
+
+
+pusa_graph_tree_problems=[261,864,54,278,934,994,773,109,124,269,1153,489,145,208,378,261,1522,694,210,996,857,116,99,4,431]
+pusa_DP_graph_combined=[472,847,546]
+pusa_DP_Greedy_problems=[935,1383,1547,256,1278,523,361,265,763,647,44,135,253,1143]
+pusa_design=[295,146,460]
+pusa_sliding_window=[480,239,1004,76]
+pusa_other=[828,772,23,224,290,291,128,249,232,233,739,56,47,907,137,20]
+
+
+done_question_need_to_review=[200,236，117]

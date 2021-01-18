@@ -54,6 +54,10 @@ class Solution:
                     #并把它的val加入res。注意这个过程在这是循环的，只要stack不空且temp是自己的parent的right child
                     #就该处理temp的parent自身了。这个while loop会连续走很多次的例子是针对一个一串单传的，并且每个node
                     #都是自己的parent的right child的情况
+
+                    #当temp不是它的parent的right child时，那它就是parent的left child，那么我们的下一步就是看parent有没有right child
+                    # 在程序中我们会进入整个大while的下一次循环，因为cur这时指向的还是空
+                    #所以在这一次新的while循环中我们会直接进入38行的else，再一次开始判断目前stack的最后一位有没有right child
                     while stack and temp==stack[-1].right:
                         temp=stack.pop()
                         res.append(temp.val)

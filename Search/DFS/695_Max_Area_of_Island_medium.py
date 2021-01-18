@@ -23,7 +23,7 @@ class Solution:
         #这个岛的每一个position的value都变成0了，相当于岛就变成了大海。那么对于这一个岛结束了以后，我们的nested for loop
         #继续进行，继续一行一行一个位置一个位置traverse，直到找到下一个value是1的position，在找到下一个value是1的position
         #之前，我们可能还会再次经过之前已经explore过的岛的position，但是由于它们的value都被我们改成0了，所以我们并不会
-        #为它们停在脚步，我们再次看到的value是1的position一定是属于我们还有explore过的岛的。
+        #为它们停在脚步，我们再次看到的value是1的position一定是属于我们还没有explore过的岛的。
         for row in range(0,len(grid)):
             for col in range(0,len(grid[0])):
                 if grid[row][col]==1:
