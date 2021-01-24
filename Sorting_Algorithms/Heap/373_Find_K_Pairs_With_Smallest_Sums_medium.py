@@ -1,5 +1,5 @@
 #这道题的思路其实和378题是一摸一样的
-#如果把nums1里的数竖着作为行的tile，nums2里的数横着作为列的title
+#如果把nums1里的数竖着作为行的title，nums2里的数横着作为列的title
 #构建出一个table，table里的每一个值等于其所在位置的行上对应的nums1里的数和列上对应的nums2里的数之和
 #那么这个table就是完全符合378题要求的table，直接用378题的方法就就好了
 import heapq

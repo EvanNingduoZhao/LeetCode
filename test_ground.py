@@ -171,12 +171,13 @@ for i in questions_i_found:
         print(i)
 
 
-pusa_graph_tree_problems=[864,54,773,109,124,269,1153,489,145,208,261,1522,694,210,996,857,116,99,4,431]
+pusa_graph_tree_problems=[864,54,269,1522,694,210,996,116,99,4,431]
 pusa_DP_graph_combined=[472,847,546]
-pusa_DP_Greedy_problems=[935,1383,1547,256,1278,523,361,265,763,647,44,135,253,1143]
+pusa_DP_Greedy_problems=[935,1383,1278,523,763,647,44,135,253]
 pusa_design=[295,146,460]
 pusa_sliding_window=[480,239,1004,76]
 pusa_other=[828,772,23,224,290,291,128,249,232,233,739,56,47,907,137,20]
 
 
-done_question_need_to_review=[200,236，117,378,278，934，261，994]
+done_question_need_to_review=[1153,200,145,208,236,261,857,117,378,278，934，261，994，773，109,124，489]
+Dp_questions_to_review=[1547,361,256,265，1143]

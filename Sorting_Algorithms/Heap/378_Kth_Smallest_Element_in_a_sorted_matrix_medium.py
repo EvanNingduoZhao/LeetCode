@@ -25,11 +25,11 @@
 #找到9 10 11 13 12 13 15这些element里最小的
 #因此想10下面的element 12 就肯定没必要现在就被push到heap里去，因为我们要找的是剩下里最小的，
 #而12这个位置的数一定比10大。而刚被pop出去的5的右面和下面的element 9和11有可能是剩下里的最小的
-#当然11在这里同样也是10的右面的element，但在实际操作中这个algorithm是不知道11和是的位置关系的
+#当然11在这里同样也是10的右面的element，但在实际操作中这个algorithm是不知道11和10的位置关系的
 
 #因此这个算法的核心思想是：既然我们每次都是要找剩下里的最小的，那么对于没被pop出去的element，他们
 #下面的和右面的我们先不考虑，因为它们自己都没被pop出去，它们下面和右边的还比它们自己更大，更不可能了
-#因此，每次pop出去一个element以后，我们再把它的左边和右边的elements push到heap里来
+#因此，每次pop出去一个element以后，我们再把它的下边和右边的elements push到heap里来
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         #下面的这些用来实现heap的helper functions和heap implementation里的几乎一样

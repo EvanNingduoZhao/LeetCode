@@ -1,3 +1,4 @@
+# 注意以下implement的是一个Max Heap
 class MaxHeap:
     #因为heap是一个complete tree，我们只要知道它有几个elements就知道它长什么样，
     #因此我们用不着用tree来implement它，用list就够了
@@ -63,6 +64,7 @@ class MaxHeap:
                 self.__swap(index,parent)
                 #继续recursively call这个function
                 self.__floatUp(parent)
+
 
     def __bubbleDown(self,index):
         left=index*2+1
