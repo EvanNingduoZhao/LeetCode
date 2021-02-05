@@ -173,11 +173,14 @@ for i in questions_i_found:
 
 pusa_graph_tree_problems=[864,54,269,1522,694,210,996,116,99,4,431]
 pusa_DP_graph_combined=[472,847,546]
-pusa_DP_Greedy_problems=[935,1383,1278,523,763,647,44,135,253]
+pusa_DP_Greedy_problems=[1383,1278,523,763,647,44,135,253]
 pusa_design=[295,146,460]
 pusa_sliding_window=[480,239,1004,76]
 pusa_other=[828,772,23,224,290,291,128,249,232,233,739,56,47,907,137,20]
 
 
 done_question_need_to_review=[1153,200,145,208,236,261,857,117,378,278，934，261，994，773，109,124，489]
-Dp_questions_to_review=[1547,361,256,265，1143]
+Dp_questions_to_review=[1547,361,256,265，1143，935]
+
+done_question_need_to_review=[489]
+Dp_questions_to_review=[935]
