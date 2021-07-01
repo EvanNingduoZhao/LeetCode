@@ -28,3 +28,7 @@ class Solution:
                 dp[k]=minNum
 
         return dp[amount]
+# 这道题我们也可以用经典背包问题的那种2d table来做，但是问题在于，这里问的不是最大能装多少价值的物品，而是最少用几个coin
+# 因此就需要keep记录每一个col里最小的一个cell里的值。这里一个col里的第n行的cell也是代表只用前n个面值的coins，最少用几个
+# 可以凑成这个cell的col对应的数值。在我们想要填满这个table的过程中，假设第n行对应的硬币面额是c，那么第n行，第k col的cell
+# 的值就是min（F(n-1, k-c)+1, F(n-1, k)）.对于每一个cell我们都要比较一下这两个值那个更小一些。这其实和经典背包问题是没有本质差别的。
