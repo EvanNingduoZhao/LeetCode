@@ -1,7 +1,8 @@
 # 这道题是经典背包问题的3d版，经典背包问题是一个2d的table，每一个row代表能在前几个objects里面选择，每一个column代表
 # 背包的承重capatity，每个cell里填的value代表目前row和col情况下的能装的最大的总value。而这道题相当于把背包的最大
 # 承重量着一个限制条件换成了两个要同时满足的限制条件，即0的总数不多于m，1的总数不多于n，而每个str（即可以往背包里装的物品）
-# 的所谓重量也就是这个str里1和0的数量。现在我们要work with的是一个3d的dp table，m和n作为两个限制性的纬度组成一个plane，
+# 的所谓重量也就是这个str里1和0的数量。每个string的value都是1，我们要最大化背包里能装的value，也就是最大化str的数量
+# 现在我们要work with的是一个3d的dp table，m和n作为两个限制性的纬度组成一个plane，
 # 而原本2d dp table中的row对应的能从前几个strs中做选择，现在变成了3d table的height
 # 为了优化空间，我们实际上不需要一个3d table，因为填充第i层时，只需要看i-1层，因此我们一共有两层就够了
 
@@ -42,7 +43,7 @@ class Solution:
                     # 直接让这个cell的值等于它上一层同一个位置的那个cell的值
                     if kn>i or km>j:
                         temp[i][j] = dp[i][j]
-                    # 如果km和kn都小于等于m和n的话，如果把这层对应的str选进subset，那么我们的subset的size就会变成
+                    # 如果km和kn都小于等于m和n的话，如果把这层对应的str选进subset，那么我们的subsetr的size就会变成
                     # dp[i-kn][j-km]+1，如果不加它进去，size则是dp[i][j]，哪个大我们就选哪个
                     else:
                         temp[i][j] = max(dp[i-kn][j-km]+1, dp[i][j])
