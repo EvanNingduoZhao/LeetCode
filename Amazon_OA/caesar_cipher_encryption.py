@@ -15,5 +15,16 @@ def caesar_cipher(strings):
         res.append(v)
     return res
 
-strings=['abc','bcd','acd','dfg']
-print(caesar_cipher(strings))
+# strings=['abc','bcd','acd','dfg']
+# print(caesar_cipher(strings))
+
+def caesar_cipher_2(s,k):
+    res = []
+    for char in s:
+        asciiCode = ord(char)-k
+        if asciiCode<ord('A'):
+            asciiCode=ord("Z")+1-(ord('A')-asciiCode)
+        res.append(chr(asciiCode))
+    return ''.join(res)
+
+print(caesar_cipher_2("VTAOG",2))

@@ -5,7 +5,7 @@ def frequency(s):
     # 我们总体的策略是一个一个把遇到的char往一个stack里push
     while i < len(s):
         # 让遇到了一个#时，说明之前push进去的两个数字应该被当作一个两位数
-        # 那么我们从stack里连续pop出来个char
+        # 那么我们从stack里连续pop出来2个char
         if s[i] == "#":
             print("encountered #, stack is:", stack)
             d1 = stack.pop()

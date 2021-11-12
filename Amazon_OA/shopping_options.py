@@ -39,7 +39,7 @@ def shoppingOptions(listA,listB,listC,listD, budget):
     return res
 
 # binary search function that return the index of the
-# largest element that is smaller or equal to target in nums
+# smallest element that is larger or equal to target in nums
 def binarySearch(nums,target):
     print("target is: ",target)
     start = 0

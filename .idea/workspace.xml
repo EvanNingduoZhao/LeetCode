@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16fc28d6-00ab-44b9-853e-07747f8a0590" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Amazon_OA/Assemble_team.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon_OA/MaxProfitWheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon_OA/num_of_nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon_OA/reassign_priority.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/163_Missing_ranges_easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/386_shuffle_an_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/394_Decode_string_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/1109_Corporate_Flight_Bookings_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/370_Range_Addition_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_signal_problems/concatenate_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_signal_problems/num_of_subarray_with_occurance_of_single_num_more_than_K.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_signal_problems/rotateNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_OA/1877_Minimize_Maximum_Pair_Sum_in_Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_OA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_OA/delete_b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_OA/largest_K.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_OA/split_integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robinhood_karat/1801_Number_of_orders_in_the_backlog_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robinhood_karat/access_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robinhood_karat/badge_access.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robinhood_karat/course_schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robinhood_karat/house_trade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robinhood_karat/margin_call.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robinhood_karat/trade_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_OA/AWS_encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/AWS_encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_OA/Bad_numbers_within_a_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/Bad_numbers_within_a_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_OA/caesar_cipher_encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/caesar_cipher_encryption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_OA/max_investment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/max_investment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_OA/optimization_box_weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/optimization_box_weight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_OA/shopping_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/shopping_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode$647_Palindromic_Substrings_medium.coverage" NAME="647_Palindromic_Substrings_medium Coverage Results" MODIFIED="1569986451480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$goodTuples.coverage" NAME="goodTuples Coverage Results" MODIFIED="1612052689038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$Bad_numbers_within_a_range.coverage" NAME="Bad_numbers_within_a_range Coverage Results" MODIFIED="1631379622320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$Selection_Sort.coverage" NAME="Sorting_test Coverage Results" MODIFIED="1592854307318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting_Algorithms" />
+    <SUITE FILE_PATH="coverage/LeetCode$Grouping_options.coverage" NAME="Grouping_options Coverage Results" MODIFIED="1608666794267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programming/2D_DP" />
+    <SUITE FILE_PATH="coverage/LeetCode$casino.coverage" NAME="casino Coverage Results" MODIFIED="1614724103938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfairOA" />
+    <SUITE FILE_PATH="coverage/LeetCode$split_into_unique_primes.coverage" NAME="split_into_unique_primes Coverage Results" MODIFIED="1629736778303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$concatenate_sum.coverage" NAME="concatenate_sum Coverage Results" MODIFIED="1632144433696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$merge_list.coverage" NAME="merge_list Coverage Results" MODIFIED="1618934056625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tesla" />
+    <SUITE FILE_PATH="coverage/LeetCode$934_Shortest_bridge_medium.coverage" NAME="934_Shortest_bridge_medium Coverage Results" MODIFIED="1611551470552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search/DFS" />
+    <SUITE FILE_PATH="coverage/LeetCode$reassign_priority.coverage" NAME="reassign_priority Coverage Results" MODIFIED="1631562044868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$split_into_two.coverage" NAME="split_into_two Coverage Results" MODIFIED="1629582148271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$digitAnagrams.coverage" NAME="digitAnagrams Coverage Results" MODIFIED="1612216492841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$largest_K.coverage" NAME="largest_K Coverage Results" MODIFIED="1633382689943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/google_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$725_split_linked_list_in_parts_medium.coverage" NAME="328_odd_even_linked_list_medium Coverage Results" MODIFIED="1583626513355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
+    <SUITE FILE_PATH="coverage/LeetCode$warehouse2.coverage" NAME="warehouse2 Coverage Results" MODIFIED="1618207458674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfair" />
+    <SUITE FILE_PATH="coverage/LeetCode$discount.coverage" NAME="discount Coverage Results" MODIFIED="1631387646272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$BST_self_test.coverage" NAME="BST_self_test Coverage Results" MODIFIED="1590361723331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary_search_tree" />
+    <SUITE FILE_PATH="coverage/LeetCode$split_integer.coverage" NAME="split_integer Coverage Results" MODIFIED="1633392221444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/google_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$magicSquare.coverage" NAME="magicSquare Coverage Results" MODIFIED="1614910860578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfairOA" />
+    <SUITE FILE_PATH="coverage/LeetCode$badge_access.coverage" NAME="badge_access Coverage Results" MODIFIED="1633292976925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robinhood_karat" />
+    <SUITE FILE_PATH="coverage/LeetCode$MaxProfitWheel.coverage" NAME="MaxProfitWheel Coverage Results" MODIFIED="1631555576445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$206_reverse_linked_list_easy.coverage" NAME="206_reverse_linked_list_easy Coverage Results" MODIFIED="1583090962170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
+    <SUITE FILE_PATH="coverage/LeetCode$27_remove_element_easy.coverage" NAME="27_remove_element_easy Coverage Results" MODIFIED="1577386910804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$stack_learning_notes.coverage" NAME="stack_learning_notes Coverage Results" MODIFIED="1583321742568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack_and_queue" />
+    <SUITE FILE_PATH="coverage/LeetCode$mergeLetters.coverage" NAME="mergeLetters Coverage Results" MODIFIED="1612042482807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$Quick_Select_Implementation.coverage" NAME="Quick_Select_Implementation Coverage Results" MODIFIED="1593392584400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting_Algorithms/Quick_Select" />
+    <SUITE FILE_PATH="coverage/LeetCode$DivisorSubStrings.coverage" NAME="DivisorSubStrings Coverage Results" MODIFIED="1612053290571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$num_of_subarray_with_occurance_of_single_num_more_than_K.coverage" NAME="num_of_subarray_with_occurance_of_single_num_more_than_K Coverage Results" MODIFIED="1632145936122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$6_ZigZag_Conversion_medium.coverage" NAME="6_ZigZag_Conversion_medium Coverage Results" MODIFIED="1570057693986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$bob_alice.coverage" NAME="bob&amp;alice Coverage Results" MODIFIED="1612112733052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$margin_call.coverage" NAME="margin_call Coverage Results" MODIFIED="1635111857147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robinhood_karat" />
+    <SUITE FILE_PATH="coverage/LeetCode$Bubble_Sort.coverage" NAME="Bucket_Sort Coverage Results" MODIFIED="1593660314982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting_Algorithms" />
+    <SUITE FILE_PATH="coverage/LeetCode$66_plus_one_easy.coverage" NAME="66_plus_one_easy Coverage Results" MODIFIED="1568414324825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$AWS_encoding.coverage" NAME="AWS_encoding Coverage Results" MODIFIED="1631383236940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$24_swap_nodes_in_pairs_medium.coverage" NAME="24_swap_nodes_in_pairs_medium Coverage Results" MODIFIED="1583193407963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
+    <SUITE FILE_PATH="coverage/LeetCode$43_multiply_Strings_medium.coverage" NAME="66_plus_one_easy Coverage Results" MODIFIED="1563954819408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$Quick_Sort.coverage" NAME="Quick_Sort Coverage Results" MODIFIED="1593377050116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting_Algorithms" />
+    <SUITE FILE_PATH="coverage/LeetCode$balloon.coverage" NAME="balloon Coverage Results" MODIFIED="1614912248298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfairOA" />
+    <SUITE FILE_PATH="coverage/LeetCode$balloon__1_.coverage" NAME="balloon (1) Coverage Results" MODIFIED="1618338376503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfair/wayfairOA" />
+    <SUITE FILE_PATH="coverage/LeetCode$Split_parentheses.coverage" NAME="Split_parentheses Coverage Results" MODIFIED="1630286640981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$access_log.coverage" NAME="access_log Coverage Results" MODIFIED="1633288730296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robinhood_karat" />
+    <SUITE FILE_PATH="coverage/LeetCode$newTextEditor.coverage" NAME="newTextEditor Coverage Results" MODIFIED="1612209763692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$secret_array.coverage" NAME="secret_array Coverage Results" MODIFIED="1629568418198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$borderSort.coverage" NAME="borderSort Coverage Results" MODIFIED="1612050789989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$optimization_box_weight.coverage" NAME="optimization_box_weight Coverage Results" MODIFIED="1629581027203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$shopping_options.coverage" NAME="shopping_options Coverage Results" MODIFIED="1629916948194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$Binary_tree_learning_notes.coverage" NAME="Binary_tree_learning_notes Coverage Results" MODIFIED="1591045093941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary_search_tree" />
+    <SUITE FILE_PATH="coverage/LeetCode$OOP.coverage" NAME="OOP Coverage Results" MODIFIED="1582328100718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
+    <SUITE FILE_PATH="coverage/LeetCode$house_trade.coverage" NAME="house_trade Coverage Results" MODIFIED="1635104435797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robinhood_karat" />
+    <SUITE FILE_PATH="coverage/LeetCode$deleteToNoConsecutive3.coverage" NAME="deleteToNoConsecutive3 Coverage Results" MODIFIED="1614724677001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfairOA" />
+    <SUITE FILE_PATH="coverage/LeetCode$830_positions_of_large_groups.coverage" NAME="830_positions_of_large_groups Coverage Results" MODIFIED="1578721967625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array_easy_questions" />
+    <SUITE FILE_PATH="coverage/LeetCode$prefixSubstring.coverage" NAME="prefixSubstring Coverage Results" MODIFIED="1612203958261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$KMP_algorithm.coverage" NAME="KMP_algorithm Coverage Results" MODIFIED="1612198852916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$laberymith.coverage" NAME="laberymith Coverage Results" MODIFIED="1612121551384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$caesar_cipher_encryption.coverage" NAME="caesar_cipher_encryption Coverage Results" MODIFIED="1631554217131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$singlyLinkedList.coverage" NAME="singlyLinkedList_Practice Coverage Results" MODIFIED="1582479362760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
+    <SUITE FILE_PATH="coverage/LeetCode$heap_implementation.coverage" NAME="heap_implementation Coverage Results" MODIFIED="1592775944884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting_Algorithms" />
+    <SUITE FILE_PATH="coverage/LeetCode$warehouseQuestion.coverage" NAME="warehouseQuestion Coverage Results" MODIFIED="1617161725270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfair" />
+    <SUITE FILE_PATH="coverage/LeetCode$34_Find_First_and_Last_Position_of_Element_in_Sorted_array_medium.coverage" NAME="34_Find_First_and_Last_Position_of_Element_in_Sorted_array_medium Coverage Results" MODIFIED="1594140814231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary_Search" />
+    <SUITE FILE_PATH="coverage/LeetCode$213_House_Robber_II_medium.coverage" NAME="213_House_Robber_II_medium Coverage Results" MODIFIED="1608339664695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic_Programming" />
+    <SUITE FILE_PATH="coverage/LeetCode$max_investment.coverage" NAME="max_investment Coverage Results" MODIFIED="1631475679117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$test_ground.coverage" NAME="test_ground Coverage Results" MODIFIED="1610654438047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$singlyLinkedList_learning_notes.coverage" NAME="singlyLinkedList_learning_notes Coverage Results" MODIFIED="1598923380156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
+    <SUITE FILE_PATH="coverage/LeetCode$Assemble_team.coverage" NAME="Assemble_team Coverage Results" MODIFIED="1631566794214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$448_Find_all_numbers_disappeared_in_an_array_easy.coverage" NAME="724_find_pivot_index_easy Coverage Results" MODIFIED="1578023004890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1635798099862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$Binary_Search_Learning_Note.coverage" NAME="744_Find_Smallest_Letter_Greater_Than_Target_easy Coverage Results" MODIFIED="1593834226430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary_Search" />
+    <SUITE FILE_PATH="coverage/LeetCode$reducerTheNumber.coverage" NAME="reducerTheNumber Coverage Results" MODIFIED="1612203903934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$insertA.coverage" NAME="insertA Coverage Results" MODIFIED="1614189217821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfairOA" />
+    <SUITE FILE_PATH="coverage/LeetCode$Sorting_test.coverage" NAME="Sorting_test Coverage Results" MODIFIED="1593382260964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting_Algorithms" />
+    <SUITE FILE_PATH="coverage/LeetCode$optimal_utilization.coverage" NAME="optimal_utilization Coverage Results" MODIFIED="1629744637009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$course_schedule.coverage" NAME="course_schedule Coverage Results" MODIFIED="1633277632691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robinhood_karat" />
+    <SUITE FILE_PATH="coverage/LeetCode$160_intersection_of_two_linked_list_easy.coverage" NAME="160_intersection_of_two_linked_list_easy Coverage Results" MODIFIED="1582524455420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
+    <SUITE FILE_PATH="coverage/LeetCode$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1631400970776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfair" />
+    <SUITE FILE_PATH="coverage/LeetCode$flipping_coins.coverage" NAME="flipping_coins Coverage Results" MODIFIED="1608268676354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMU_MSE" />
+    <SUITE FILE_PATH="coverage/LeetCode$decode_encoded_string.coverage" NAME="decode_encoded_string Coverage Results" MODIFIED="1629569548239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$88_merge_sorted_array_easy.coverage" NAME="524_longest_word_in_dictionary_through_deleting_medium Coverage Results" MODIFIED="1582094356290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two_pointers_technique" />
+    <SUITE FILE_PATH="coverage/LeetCode$matrixQuery.coverage" NAME="matrixQuery Coverage Results" MODIFIED="1612051758666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$5_longest_palindromic_substring_medium.coverage" NAME="5_longest_palindromic_substring_medium Coverage Results" MODIFIED="1569988196544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$singlyLinkedListPractice.coverage" NAME="singlyLinkedList_learning_notes Coverage Results" MODIFIED="1582524052991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
+    <SUITE FILE_PATH="coverage/LeetCode$coolFeature.coverage" NAME="coolFeature Coverage Results" MODIFIED="1612111912332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$delete_b.coverage" NAME="delete_b Coverage Results" MODIFIED="1633385361006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/google_OA" />
+    <SUITE FILE_PATH="coverage/LeetCode$633_Sum_of_square_numbers.coverage" NAME="680_valid_palindrome_II_easy Coverage Results" MODIFIED="1581197832462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two_pointers_technique" />
+    <SUITE FILE_PATH="coverage/LeetCode$sumOfReversed.coverage" NAME="sumOfReversed Coverage Results" MODIFIED="1611940024330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
+    <SUITE FILE_PATH="coverage/LeetCode$OOP_learning_notes.coverage" NAME="OOP_learning_notes Coverage Results" MODIFIED="1618204021893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
+    <SUITE FILE_PATH="coverage/LeetCode$bombLab_phase5.coverage" NAME="bombLab_phase5 Coverage Results" MODIFIED="1614724084643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google/386_shuffle_an_array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google/394_Decode_string_medium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_ground.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/google_OA/delete_b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/google_OA/1877_Minimize_Maximum_Pair_Sum_in_Array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/google_OA/split_integer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon_OA/discount.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon_OA/Fill_the_truck.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon_OA/optimal_utilization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>double</find>
+      <find>排列</find>
+      <find>super</find>
+      <find>935</find>
+      <find>m</find>
+      <find>stock</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Amazon_OA/optimal_utilization.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/Split_parentheses.py" />
+        <option value="$PROJECT_DIR$/Dynamic_Programming/1043_Partition_array_for_maximum_sum.py" />
+        <option value="$PROJECT_DIR$/Salesforce/1328_Break_a_Palindrome_medium.py" />
+        <option value="$PROJECT_DIR$/Salesforce/test.py" />
+        <option value="$PROJECT_DIR$/Salesforce/1328_break_a_palindrome_medium.py" />
+        <option value="$PROJECT_DIR$/Salesforce/1710_Maximum_unit_on_a_truck_easy.py" />
+        <option value="$PROJECT_DIR$/Salesforce/1629_slowest_key_easy.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/1629_slowest_key_easy.py" />
+        <option value="$PROJECT_DIR$/Salesforce/441_arranging_coins_easy.py" />
+        <option value="$PROJECT_DIR$/Salesforce/1413_min_value_to_get_positive_step_by_step_sum_easy.py" />
+        <option value="$PROJECT_DIR$/Graph/1135_Connecting_Cities_With_Minimum_Cost_medium.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/696_Count_Binary_substrings_easy.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/discount.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/1010_Pairs_of_songs_with_total_duration_divisible_by_60_medium.py" />
+        <option value="$PROJECT_DIR$/wayfair/test3.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/1465_Max_Area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts_medium.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/1041_Robot_bounded_in_circle_medium.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/carsar_cipher_encryption.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/323_Number_of_connected_components_in_an_undirected_graph_medium.py" />
+        <option value="$PROJECT_DIR$/Search/DFS/323_Number_of_connected_components_in_an_undirected_graph_medium.py" />
+        <option value="$PROJECT_DIR$/Math/1109_Corporate_Flight_Bookings_medium.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/max_investment.py" />
+        <option value="$PROJECT_DIR$/Math/370_Range_Addition_medium.py" />
+        <option value="$PROJECT_DIR$/Array/163_Missing_ranges_easy.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/Bad_numbers_within_a_range.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/caesar_cipher_encryption.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/MaxProfitWheel.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/reassign_priority.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/Assemble_team.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/AWS_encoding.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/Fill_the_truck.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/optimization_box_weight.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/shopping_options.py" />
+        <option value="$PROJECT_DIR$/code_signal_problems/concatenate_sum.py" />
+        <option value="$PROJECT_DIR$/code_signal_problems/num_of_subarray_with_occurance_of_single_num_more_than_K.py" />
+        <option value="$PROJECT_DIR$/code_signal_problems/rotateNum.py" />
+        <option value="$PROJECT_DIR$/Amazon_OA/num_of_nodes.py" />
+        <option value="$PROJECT_DIR$/robinhood_karat/course_schedule.py" />
+        <option value="$PROJECT_DIR$/robinhood_karat/access_log.py" />
+        <option value="$PROJECT_DIR$/robinhood_karat/badge_access.py" />
+        <option value="$PROJECT_DIR$/google_OA/largest_K.py" />
+        <option value="$PROJECT_DIR$/google_OA/delete_b.py" />
+        <option value="$PROJECT_DIR$/google_OA/Minimize_Maximum_Pair_Sum_in_Array.py" />
+        <option value="$PROJECT_DIR$/google_OA/split_integer.py" />
+        <option value="$PROJECT_DIR$/robinhood_karat/1801_Number_of_orders_in_the_backlog_medium.py" />
+        <option value="$PROJECT_DIR$/robinhood_karat/house_trade.py" />
+        <option value="$PROJECT_DIR$/robinhood_karat/margin_call.py" />
+        <option value="$PROJECT_DIR$/Google/386_shuffle_an_array.py" />
+        <option value="$PROJECT_DIR$/Google/394_Decode_string_medium.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="120" />
+    <option name="y" value="92" />
+    <option name="width" value="1280" />
+    <option name="height" value="1347" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Google" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wayfair" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Dynamic_Programming/Matrix_path" />
+      <recent name="$PROJECT_DIR$/Search/BFS/Non-abstract_BFS_problems" />
+      <recent name="$PROJECT_DIR$/Search/BFS/Abstract_BFS_problems" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Search/DFS" />
+      <recent name="$PROJECT_DIR$/Amazon_OA" />
+      <recent name="$PROJECT_DIR$/Two_pointers_technique" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test2">
+    <configuration name="213_House_Robber_II_medium" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic_Programming" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programming/Fibonacci/213_House_Robber_II_medium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="328_odd_even_linked_list_medium" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked_list" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked_list/328_odd_even_linked_list_medium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="34_Find_First_and_Last_Position_of_Element_in_Sorted_array_medium" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Binary_Search" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Binary_Search/34_Find_First_and_Last_Position_of_Element_in_Sorted_array_medium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="524_longest_word_in_dictionary_through_deleting_medium" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two_pointers_technique" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two_pointers_technique/524_longest_word_in_dictionary_through_deleting_medium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="680_valid_palindrome_II_easy" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two_pointers_technique" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two_pointers_technique/680_valid_palindrome_II_easy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6_ZigZag_Conversion_medium" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_ZigZag_Conversion_medium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BST_self_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Binary_search_tree" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Binary_search_tree/BST_self_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Binary_tree_learning_notes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Binary_search_tree" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Binary_search_tree/Binary_tree_learning_notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OOP_learning_notes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object_Oriented_Programming" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object_Oriented_Programming/OOP_learning_notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Quick_Select_Implementation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting_Algorithms/Quick_Select" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/Quick_Select/Quick_Select_Implementation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sorting_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting_Algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/Sorting_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="badge_access" type="PythonConfigurationType" factoryName="Python">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robinhood_karat" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robinhood_karat/badge_access.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="delete_b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google_OA" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_OA/delete_b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="heap_implementation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting_Algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/Heap/heap_implementation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="house_trade" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robinhood_karat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robinhood_karat/house_trade.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="margin_call" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robinhood_karat" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robinhood_karat/margin_call.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="singlyLinkedList_Practice" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked_list" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked_list/singlyLinkedList_Practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="singlyLinkedList_learning_notes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked_list" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked_list/singlyLinkedList_learning_notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="split_integer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google_OA" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_OA/split_integer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stack_learning_notes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_and_queue" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack_and_queue/stack_learning_notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_ground" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_ground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.badge_access" />
+      <item itemvalue="Python.213_House_Robber_II_medium" />
+      <item itemvalue="Python.328_odd_even_linked_list_medium" />
+      <item itemvalue="Python.34_Find_First_and_Last_Position_of_Element_in_Sorted_array_medium" />
+      <item itemvalue="Python.524_longest_word_in_dictionary_through_deleting_medium" />
+      <item itemvalue="Python.680_valid_palindrome_II_easy" />
+      <item itemvalue="Python.6_ZigZag_Conversion_medium" />
+      <item itemvalue="Python.BST_self_test" />
+      <item itemvalue="Python.Binary_tree_learning_notes" />
+      <item itemvalue="Python.OOP_learning_notes" />
+      <item itemvalue="Python.Quick_Select_Implementation" />
+      <item itemvalue="Python.Sorting_test" />
+      <item itemvalue="Python.heap_implementation" />
+      <item itemvalue="Python.singlyLinkedList_Practice" />
+      <item itemvalue="Python.singlyLinkedList_learning_notes" />
+      <item itemvalue="Python.stack_learning_notes" />
+      <item itemvalue="Python.test_ground" />
+      <item itemvalue="Python.delete_b" />
+      <item itemvalue="Python.split_integer" />
+      <item itemvalue="Python.house_trade" />
+      <item itemvalue="Python.margin_call" />
+      <item itemvalue="Python.test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.margin_call" />
+        <item itemvalue="Python.house_trade" />
+        <item itemvalue="Python.split_integer" />
+        <item itemvalue="Python.delete_b" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16fc28d6-00ab-44b9-853e-07747f8a0590" name="Default Changelist" comment="" />
+      <created>1563801448925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563801448925</updated>
+      <workItem from="1563801451477" duration="206000" />
+      <workItem from="1563937942356" duration="9108000" />
+      <workItem from="1568404754149" duration="1824000" />
+      <workItem from="1569375617962" duration="7059000" />
+      <workItem from="1569982441490" duration="5081000" />
+      <workItem from="1570054782989" duration="2714000" />
+      <workItem from="1570069046531" duration="24000" />
+      <workItem from="1570426790116" duration="7000" />
+      <workItem from="1570766445348" duration="2179000" />
+      <workItem from="1577293791636" duration="8755000" />
+      <workItem from="1577576980248" duration="88000" />
+      <workItem from="1577734823204" duration="17314000" />
+      <workItem from="1578524594823" duration="6338000" />
+      <workItem from="1581087243498" duration="5175000" />
+      <workItem from="1581291688297" duration="9000" />
+      <workItem from="1582078930319" duration="7017000" />
+      <workItem from="1582234885900" duration="11000" />
+      <workItem from="1582258159592" duration="23328000" />
+      <workItem from="1582859268947" duration="8454000" />
+      <workItem from="1583187336662" duration="14678000" />
+      <workItem from="1583443957661" duration="3000" />
+      <workItem from="1583593820198" duration="10184000" />
+      <workItem from="1584232652629" duration="17548000" />
+      <workItem from="1586486415510" duration="11090000" />
+      <workItem from="1586971447658" duration="5848000" />
+      <workItem from="1589214976856" duration="889000" />
+      <workItem from="1590354960503" duration="23767000" />
+      <workItem from="1590680754421" duration="1963000" />
+      <workItem from="1590884143766" duration="15261000" />
+      <workItem from="1591123054666" duration="2245000" />
+      <workItem from="1591205081504" duration="809000" />
+      <workItem from="1591210129372" duration="54000" />
+      <workItem from="1591210186314" duration="37000" />
+      <workItem from="1591210226253" duration="5151000" />
+      <workItem from="1591286796336" duration="87000" />
+      <workItem from="1591286886218" duration="938000" />
+      <workItem from="1591288295799" duration="1963000" />
+      <workItem from="1591373104546" duration="1210000" />
+      <workItem from="1591378293152" duration="1431000" />
+      <workItem from="1591380936851" duration="20805000" />
+      <workItem from="1591644933141" duration="2879000" />
+      <workItem from="1591742181900" duration="4339000" />
+      <workItem from="1591891095962" duration="2740000" />
+      <workItem from="1591897109233" duration="666000" />
+      <workItem from="1591897863890" duration="332000" />
+      <workItem from="1591898282544" duration="1730000" />
+      <workItem from="1591931109966" duration="13581000" />
+      <workItem from="1592272196904" duration="35029000" />
+      <workItem from="1592951279797" duration="3000" />
+      <workItem from="1593035377975" duration="3499000" />
+      <workItem from="1593103271746" duration="5675000" />
+      <workItem from="1593275331537" duration="5546000" />
+      <workItem from="1593296832347" duration="7381000" />
+      <workItem from="1593362720284" duration="5066000" />
+      <workItem from="1593372318015" duration="9688000" />
+      <workItem from="1593536498054" duration="5508000" />
+      <workItem from="1593566677384" duration="4279000" />
+      <workItem from="1593634161806" duration="3697000" />
+      <workItem from="1593715925819" duration="4206000" />
+      <workItem from="1593806187099" duration="20063000" />
+      <workItem from="1594136069311" duration="15671000" />
+      <workItem from="1594307044910" duration="8914000" />
+      <workItem from="1594404019913" duration="3482000" />
+      <workItem from="1594492145893" duration="5798000" />
+      <workItem from="1594578347379" duration="3778000" />
+      <workItem from="1594655843016" duration="9650000" />
+      <workItem from="1594750339953" duration="7464000" />
+      <workItem from="1595024173306" duration="4445000" />
+      <workItem from="1595090745241" duration="3802000" />
+      <workItem from="1595102820992" duration="1452000" />
+      <workItem from="1595112411106" duration="757000" />
+      <workItem from="1595178330861" duration="2341000" />
+      <workItem from="1596331633350" duration="999000" />
+      <workItem from="1596730580798" duration="235000" />
+      <workItem from="1598458638123" duration="7955000" />
+      <workItem from="1598501125271" duration="20000" />
+      <workItem from="1598558665703" duration="15115000" />
+      <workItem from="1598742122732" duration="6963000" />
+      <workItem from="1598920943351" duration="6540000" />
+      <workItem from="1599081689128" duration="599000" />
+      <workItem from="1599082539022" duration="10926000" />
+      <workItem from="1599173117350" duration="13004000" />
+      <workItem from="1599355966433" duration="801000" />
+      <workItem from="1599413533870" duration="5633000" />
+      <workItem from="1599515546772" duration="4493000" />
+      <workItem from="1599759084538" duration="137000" />
+      <workItem from="1599846396028" duration="2951000" />
+      <workItem from="1600011519243" duration="9000" />
+      <workItem from="1600118862984" duration="10664000" />
+      <workItem from="1600286763106" duration="22000" />
+      <workItem from="1600292574898" duration="5065000" />
+      <workItem from="1600394019822" duration="97000" />
+      <workItem from="1600460815141" duration="6566000" />
+      <workItem from="1601057132557" duration="3362000" />
+      <workItem from="1601509126988" duration="889000" />
+      <workItem from="1601675562569" duration="1730000" />
+      <workItem from="1601693014792" duration="886000" />
+      <workItem from="1601750061782" duration="1335000" />
+      <workItem from="1601824886095" duration="2460000" />
+      <workItem from="1601845249264" duration="31000" />
+      <workItem from="1602119891460" duration="2591000" />
+      <workItem from="1602283701874" duration="459000" />
+      <workItem from="1602430975241" duration="3793000" />
+      <workItem from="1602534077009" duration="191000" />
+      <workItem from="1608076256970" duration="3171000" />
+      <workItem from="1608241527515" duration="1697000" />
+      <workItem from="1608243560068" duration="4545000" />
+      <workItem from="1608333044821" duration="6849000" />
+      <workItem from="1608405172282" duration="9129000" />
+      <workItem from="1608604495746" duration="6585000" />
+      <workItem from="1608838959374" duration="2599000" />
+      <workItem from="1609177432661" duration="26000" />
+      <workItem from="1609183247109" duration="3646000" />
+      <workItem from="1610652901018" duration="2276000" />
+      <workItem from="1610733047371" duration="1925000" />
+      <workItem from="1610736417836" duration="19774000" />
+      <workItem from="1610934569950" duration="3512000" />
+      <workItem from="1610997704172" duration="53000" />
+      <workItem from="1611008112696" duration="10571000" />
+      <workItem from="1611197229530" duration="17378000" />
+      <workItem from="1611363820255" duration="34799000" />
+      <workItem from="1611768027309" duration="5985000" />
+      <workItem from="1611931992735" duration="17929000" />
+      <workItem from="1612197041478" duration="10773000" />
+      <workItem from="1612217089163" duration="2954000" />
+      <workItem from="1612540952502" duration="2601000" />
+      <workItem from="1613748557118" duration="1889000" />
+      <workItem from="1614188552561" duration="2906000" />
+      <workItem from="1614210912629" duration="45000" />
+      <workItem from="1614306925848" duration="3119000" />
+      <workItem from="1614389080512" duration="229000" />
+      <workItem from="1614722582673" duration="4122000" />
+      <workItem from="1614740438906" duration="53000" />
+      <workItem from="1614908133527" duration="3198000" />
+      <workItem from="1615222015382" duration="2087000" />
+      <workItem from="1617119882370" duration="10933000" />
+      <workItem from="1618201857026" duration="4552000" />
+      <workItem from="1618329558621" duration="2328000" />
+      <workItem from="1618372324730" duration="3582000" />
+      <workItem from="1618522151584" duration="561000" />
+      <workItem from="1618538114439" duration="2663000" />
+      <workItem from="1618593818545" duration="4100000" />
+      <workItem from="1618798328651" duration="956000" />
+      <workItem from="1618867182844" duration="8089000" />
+      <workItem from="1621105094563" duration="2552000" />
+      <workItem from="1622567845137" duration="306000" />
+      <workItem from="1623616426201" duration="558000" />
+      <workItem from="1623685778895" duration="67000" />
+      <workItem from="1624125196483" duration="9667000" />
+      <workItem from="1624200405604" duration="8190000" />
+      <workItem from="1625104030265" duration="1466000" />
+      <workItem from="1625690596973" duration="220000" />
+      <workItem from="1626141374883" duration="54000" />
+      <workItem from="1626556349281" duration="5622000" />
+      <workItem from="1628631676829" duration="103000" />
+      <workItem from="1629563736065" duration="24342000" />
+      <workItem from="1630209594913" duration="1709000" />
+      <workItem from="1630601276428" duration="3496000" />
+      <workItem from="1631066275225" duration="576000" />
+      <workItem from="1631148311483" duration="2530000" />
+      <workItem from="1631288285712" duration="1131000" />
+      <workItem from="1631323217628" duration="3715000" />
+      <workItem from="1631377456942" duration="16987000" />
+      <workItem from="1631497885318" duration="50000" />
+      <workItem from="1631549993816" duration="12215000" />
+      <workItem from="1631580040301" duration="196000" />
+      <workItem from="1632102567753" duration="485000" />
+      <workItem from="1632142460587" duration="4155000" />
+      <workItem from="1632269738761" duration="83000" />
+      <workItem from="1633114312962" duration="201000" />
+      <workItem from="1633115268588" duration="1969000" />
+      <workItem from="1633274852821" duration="3071000" />
+      <workItem from="1633282350085" duration="12828000" />
+      <workItem from="1633443960827" duration="1038000" />
+      <workItem from="1634161651204" duration="590000" />
+      <workItem from="1634601786581" duration="171000" />
+      <workItem from="1634606023050" duration="299000" />
+      <workItem from="1634659712104" duration="43000" />
+      <workItem from="1634755282674" duration="12000" />
+      <workItem from="1635093265697" duration="959000" />
+      <workItem from="1635097274820" duration="9436000" />
+      <workItem from="1635177997520" duration="2061000" />
+      <workItem from="1635274853143" duration="460000" />
+      <workItem from="1635281843436" duration="597000" />
+      <workItem from="1635793315972" duration="2570000" />
+      <workItem from="1635869630955" duration="15000" />
+      <workItem from="1636596365584" duration="9000" />
+    </task>
+    <task id="LOCAL-00062" summary="add 128">
+      <created>1592418253774</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1592418253774</updated>
+    </task>
+    <task id="LOCAL-00063" summary="change BT/BST problems file structure second attempt">
+      <created>1592594871416</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1592594871417</updated>
+    </task>
+    <task id="LOCAL-00064" summary="change BT/BST problems file structure second attempt">
+      <created>1592599258517</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1592599258517</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Update all files in Sorting_Algorithms">
+      <created>1593053332965</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1593053332965</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add heap directory, add 378">
+      <created>1593209499282</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1593209499283</updated>
+    </task>
+    <task id="LOCAL-00067" summary="add 373">
+      <created>1593213298604</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1593213298604</updated>
+    </task>
+    <task id="LOCAL-00068" summary="add 407">
+      <created>1593285944806</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1593285944807</updated>
+    </task>
+    <task id="LOCAL-00069" summary="add 347">
+      <created>1593294718585</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1593294718585</updated>
+    </task>
+    <task id="LOCAL-00070" summary="add Quick sort">
+      <created>1593367826472</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1593367826474</updated>
+    </task>
+    <task id="LOCAL-00071" summary="add 347 quick select solution and quick select implementation">
+      <created>1593404370072</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1593404370072</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add 75">
+      <created>1593459417544</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1593459417544</updated>
+    </task>
+    <task id="LOCAL-00073" summary="reorgnize two pointer technique folder structure">
+      <created>1593634215925</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1593634215926</updated>
+    </task>
+    <task id="LOCAL-00074" summary="re-orgnize two pointer technique folder structure">
+      <created>1593634325707</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1593634325708</updated>
+    </task>
+    <task id="LOCAL-00075" summary="update discrepancies">
+      <created>1593634397986</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1593634397986</updated>
+    </task>
+    <task id="LOCAL-00076" summary="add bucket sort">
+      <created>1593664298637</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1593664298637</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add 451">
+      <created>1593718817656</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1593718817657</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add method 3 bucket sort to question 347">
+      <created>1593722158742</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1593722158742</updated>
+    </task>
+    <task id="LOCAL-00079" summary="add binary search learning note 69 and 744">
+      <created>1593835381268</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1593835381269</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add 540">
+      <created>1593903494226</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1593903494226</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add 153 278 34">
+      <created>1594178975174</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1594178975175</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add 162">
+      <created>1594236112003</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1594236112004</updated>
+    </task>
+    <task id="LOCAL-00083" summary="add 70 300">
+      <created>1594418684251</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1594418684252</updated>
+    </task>
+    <task id="LOCAL-00084" summary="add 198">
+      <created>1594501371162</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1594501371163</updated>
+    </task>
+    <task id="LOCAL-00085" summary="add 213">
+      <created>1594590634082</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1594590634083</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add 634(错排信件)和母牛生产">
+      <created>1594660761020</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1594660761021</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add 64">
+      <created>1594695799201</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1594695799201</updated>
+    </task>
+    <task id="LOCAL-00088" summary="modified 198">
+      <created>1594695834206</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1594695834206</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add 62 303 413">
+      <created>1594767566370</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1594767566370</updated>
+    </task>
+    <task id="LOCAL-00090" summary="add 343">
+      <created>1595028148513</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1595028148514</updated>
+    </task>
+    <task id="LOCAL-00091" summary="add 91 and 279">
+      <created>1595104235134</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1595104235135</updated>
+    </task>
+    <task id="LOCAL-00092" summary="add 646 modify 300">
+      <created>1595183450347</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1595183450348</updated>
+    </task>
+    <task id="LOCAL-00093" summary="add Leetcode 11, 150 and modified comments of some previous done problems">
+      <created>1598665722203</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1598665722204</updated>
+    </task>
+    <task id="LOCAL-00094" summary="add problem 15 3sum">
+      <created>1598755310272</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1598755310273</updated>
+    </task>
+    <task id="LOCAL-00095" summary="add problem 1091 and commit modifications made to previously done questions">
+      <created>1600310206315</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1600310206316</updated>
+    </task>
+    <task id="LOCAL-00096" summary="modify 1091 and add 127,695">
+      <created>1601058671837</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1601058671838</updated>
+    </task>
+    <task id="LOCAL-00097" summary="add 200 547">
+      <created>1601693232437</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1601693232439</updated>
+    </task>
+    <task id="LOCAL-00098" summary="add 130">
+      <created>1601751352815</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1601751352816</updated>
+    </task>
+    <task id="LOCAL-00099" summary="add 417">
+      <created>1601831865256</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1601831865257</updated>
+    </task>
+    <task id="LOCAL-00100" summary="add 417">
+      <created>1602121047521</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1602121047522</updated>
+    </task>
+    <task id="LOCAL-00101" summary="restructured the DP problem folder">
+      <created>1608673258115</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1608673258116</updated>
+    </task>
+    <task id="LOCAL-00102" summary="restructured the tree and graph problems folder, added problem 117">
+      <created>1610997749869</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1610997749877</updated>
+    </task>
+    <task id="LOCAL-00103" summary="restructured Search BFS into abstract and non-abstracted, addedd 773, 994,934,261">
+      <created>1611175347185</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1611175347186</updated>
+    </task>
+    <task id="LOCAL-00104" summary="add 124, 1143,1547,256.265.361.489.857">
+      <created>1611463282240</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1611463282241</updated>
+    </task>
+    <task id="LOCAL-00105" summary="add code signal problems, add 376,935,523,49,17">
+      <created>1612547582694</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1612547582695</updated>
+    </task>
+    <task id="LOCAL-00106" summary="added many newly done problems">
+      <created>1618600050257</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1618600050257</updated>
+    </task>
+    <task id="LOCAL-00107" summary="added many newly done problems mainly knapSack problems">
+      <created>1625106639030</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1625106639030</updated>
+    </task>
+    <task id="LOCAL-00108" summary="added many new problems">
+      <created>1631335122519</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1631335122520</updated>
+    </task>
+    <task id="LOCAL-00109" summary="added many new problems 2">
+      <created>1631413608365</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1631413608366</updated>
+    </task>
+    <task id="LOCAL-00110" summary="added many new problems 3">
+      <created>1631470647164</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1631470647165</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="921627000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="120" y="92" width="1280" height="1347" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.3562197" />
+      <window_info id="Structure" order="1" sideWeight="0.5018657" side_tool="true" weight="0.2714055" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.26454183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.326257" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.18029115" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.3385475" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32924107" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.35267857" />
+      <window_info anchor="bottom" id="ExcelReader" order="13" visible="true" weight="0.033707865" />
+      <window_info anchor="right" x="0" y="0" width="270" height="785" id="Documentation" order="0" side_tool="true" weight="0.32873377" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.31771192" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.3069467" />
+      <window_info id="Structure" order="1" sideWeight="0.5018657" side_tool="true" weight="0.2714055" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42087543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4983165" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.18029115" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295964" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.35274357" />
+      <window_info anchor="right" x="0" y="0" width="270" height="785" id="Documentation" order="0" side_tool="true" weight="0.32873377" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add 213" />
+    <MESSAGE value="add 634(错排信件)和母牛生产" />
+    <MESSAGE value="add 64" />
+    <MESSAGE value="modified 198" />
+    <MESSAGE value="add 62 303 413" />
+    <MESSAGE value="add 343" />
+    <MESSAGE value="add 91 and 279" />
+    <MESSAGE value="add 646 modify 300" />
+    <MESSAGE value="add Leetcode 11, 150 and modified comments of some previous done problems" />
+    <MESSAGE value="add problem 15 3sum" />
+    <MESSAGE value="add problem 1091 and commit modifications made to previously done questions" />
+    <MESSAGE value="modify 1091 and add 127,695" />
+    <MESSAGE value="add 200 547" />
+    <MESSAGE value="add 130" />
+    <MESSAGE value="add 417" />
+    <MESSAGE value="restructured the DP problem folder" />
+    <MESSAGE value="restructured the tree and graph problems folder, added problem 117" />
+    <MESSAGE value="restructured Search BFS into abstract and non-abstracted, addedd 773, 994,934,261" />
+    <MESSAGE value="add 124, 1143,1547,256.265.361.489.857" />
+    <MESSAGE value="add code signal problems, add 376,935,523,49,17" />
+    <MESSAGE value="added many newly done problems" />
+    <MESSAGE value="added many newly done problems mainly knapSack problems" />
+    <MESSAGE value="added many new problems" />
+    <MESSAGE value="added many new problems 2" />
+    <MESSAGE value="added many new problems 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added many new problems 3" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Linked_list/206_reverse_linked_list_easy.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Linked_list/160_intersection_of_two_linked_list_easy.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Search/DFS/489_Robot_Room_Cleaner_hard.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wayfair/wayfairOA/magicSquare.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="dp" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>dp</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>right</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>left</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nums2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nums1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputList</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ans</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Math/1109_Corporate_Flight_Bookings_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/163_Missing_ranges_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sliding_Window/239_Sliding_Window_Maximum_hard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/200_Number_Of_Islands_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/547_Friend_Circles_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/696_Count_Binary_substrings_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/323_Number_of_connected_components_in_an_undirected_graph_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/994_Rotting_oranges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/1010_Pairs_of_songs_with_total_duration_divisible_by_60_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/1041_Robot_bounded_in_circle_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/1135_Connecting_Cities_With_Minimum_Cost_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/1465_Max_Area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/caesar_cipher_encryption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linked_list/21_merge_two_sorted_lists_easy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_signal_problems/coolFeature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_signal_problems/concatenate_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_signal_problems/num_of_subarray_with_occurance_of_single_num_more_than_K.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_signal_problems/rotateNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/1629_slowest_key_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/Assemble_team.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/AWS_encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/decode_encoded_string.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/secret_array.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/shopping_options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/split_into_two.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/Split_parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/Bad_numbers_within_a_range.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/max_investment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/MaxProfitWheel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/split_into_unique_primes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/reassign_priority.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/optimization_box_weight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/num_of_nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robinhood_karat/course_schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robinhood_karat/access_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robinhood_karat/badge_access.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_OA/largest_K.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robinhood_karat/1801_Number_of_orders_in_the_backlog_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robinhood_karat/house_trade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robinhood_karat/margin_call.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robinhood_karat/trade_stock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/386_shuffle_an_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/394_Decode_string_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ground.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_OA/delete_b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_OA/1877_Minimize_Maximum_Pair_Sum_in_Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_OA/split_integer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/discount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/Fill_the_truck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon_OA/optimal_utilization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

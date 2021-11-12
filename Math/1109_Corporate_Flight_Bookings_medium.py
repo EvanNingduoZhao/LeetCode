@@ -1,22 +1,3 @@
-# 这道题和LC1109是基本一样的
-def maxValue(n,rounds):
-    assets = [0]*n
-    maxValue = 0
-    for round in rounds:
-        assets[round[0]-1]+=round[2]
-        if round[1]<len(assets):
-            assets[round[1]]-=round[2]
-
-    for i in range(1,len(assets)):
-        assets[i]+= assets[i-1]
-        maxValue = max(maxValue, assets[i])
-    print(assets)
-    return maxValue
-
-contributions = [[1,2,10],[2,4,5],[3,5,12]]
-print(maxValue(5,contributions))
-
-
 # 这道题涉及到了prefix sum的另一种使用方法
 # 即如果你用下面的错误方法来写的话，假设bookings的长度是m，那么时间复杂度可以说是O(m*n)因为一个booking可以覆盖的区间的最大长度是n
 # 相比之下下面的这个使用prefix sum的方法就很好了
@@ -29,21 +10,20 @@ print(maxValue(5,contributions))
 # 但是这次我们的时间复杂度只是O(n+m)
 class Solution:
     def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:
-        flights = [0] * n
+        flights = [0]*n
         for b in bookings:
-            flights[b[0] - 1] += b[2]
-            if b[1] < len(flights):
-                flights[b[1]] -= b[2]
-        for i in range(1, len(flights)):
-            flights[i] += flights[i - 1]
+            flights[b[0]-1]+=b[2]
+            if b[1]<len(flights):
+                flights[b[1]]-=b[2]
+        for i in range(1,len(flights)):
+            flights[i]+=flights[i-1]
         return flights
-
 
 # 错误方法
 class Solution:
     def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:
-        flights = [0] * n
+        flights = [0]*n
         for b in bookings:
-            for i in range(b[0] - 1, b[1]):
-                flights[i] += b[2]
+            for i in range(b[0]-1,b[1]):
+                flights[i]+=b[2]
         return flights

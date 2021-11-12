@@ -17,18 +17,20 @@
 #
 # print(fibonacci(1))
 
-import ipaddress
-print("hello")
-cidrSig = '172.10.242.81/12'
-rangeAddr = ipaddress.IPv4Network(cidrSig,False)
-leadindBits = int(cidrSig.split("/")[1])
-addressCount = pow(2,32-leadindBits)
-print(addressCount)
-print(str(rangeAddr[0]))
-print(rangeAddr[-1])
-# for addr in rangeAddr:
+# import ipaddress
+# print("hello")
+# cidrSig = '172.10.242.81/12'
+# rangeAddr = ipaddress.IPv4Network(cidrSig,False)
+# leadindBits = int(cidrSig.split("/")[1])
+# addressCount = pow(2,32-leadindBits)
+# print(addressCount)
+# print(str(rangeAddr[0]))
+# print(rangeAddr[-1])
+# # for addr in rangeAddr:
 #     print(rangeAddr)
 # rangeAddr = [str(ip) for ip in ipaddress.IPv4Network('192.0.2.0/28',False)]
 # print(len(rangeAddr))
 # print(rangeAddr[0])
 # print(rangeAddr[-1])
+
+print(["c"]+["a","b"]*2)

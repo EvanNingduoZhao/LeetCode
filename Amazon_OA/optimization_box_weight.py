@@ -10,7 +10,7 @@
 # sum of B's weights. If more than one subset A exists, return the one with the maximal
 # total weight.
 
-# 先从大到小sort，从重量最大的开始依次往setA里放，知道setA总重量超过所有box总重量的一半
+# 先从大到小sort，从重量最大的开始依次往setA里放，直到setA总重量超过所有box总重量的一半
 def optBox(nums):
     nums.sort(reverse=True)
     halfTotalWeight = sum(nums)/2
