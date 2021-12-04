@@ -32,5 +32,31 @@
 # print(len(rangeAddr))
 # print(rangeAddr[0])
 # print(rangeAddr[-1])
+#
 
-print(["c"]+["a","b"]*2)
+# n=4
+# m=3
+# dp =[[[0,0,0,0] for j in range(n)] for i in range(m)]
+# print(dp)
+# count = 0
+# for i in range(m):
+#     # print(dp[i])
+#     for j in range(n):
+#         # print(dp[i][j])
+#         for k in range(4):
+#             count+=1
+#             dp[i][j][k]+=1
+#             print("i",i)
+#             print("j",j)
+#             print("k",k)
+#             print(dp)
+#             print(count)
+# print([0]*4)
+# dp2 = [[0,]]
+# for i in range(n):
+#     for j in range(4):
+#         dp2[i][j]+=1
+#         print(dp2)
+
+for j in xrange(10):
+    print(j)

@@ -2,36 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fc28d6-00ab-44b9-853e-07747f8a0590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Amazon_OA/Assemble_team.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon_OA/MaxProfitWheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon_OA/num_of_nodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon_OA/reassign_priority.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/163_Missing_ranges_easy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/386_shuffle_an_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/394_Decode_string_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/1109_Corporate_Flight_Bookings_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/370_Range_Addition_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_signal_problems/concatenate_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_signal_problems/num_of_subarray_with_occurance_of_single_num_more_than_K.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_signal_problems/rotateNum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google_OA/1877_Minimize_Maximum_Pair_Sum_in_Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google_OA/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google_OA/delete_b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google_OA/largest_K.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google_OA/split_integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robinhood_karat/1801_Number_of_orders_in_the_backlog_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robinhood_karat/access_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robinhood_karat/badge_access.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robinhood_karat/course_schedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robinhood_karat/house_trade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robinhood_karat/margin_call.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robinhood_karat/trade_stock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_OA/AWS_encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/AWS_encoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_OA/Bad_numbers_within_a_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/Bad_numbers_within_a_range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_OA/caesar_cipher_encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/caesar_cipher_encryption.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_OA/max_investment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/max_investment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_OA/optimization_box_weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/optimization_box_weight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_OA/shopping_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_OA/shopping_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/1110_Delete_Nodes_and_return_forest_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/299_Bulls_and_cows_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/366_Find_leaves_of_Binary_tree_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/562_Longest_Line_of_consecutive_one_in_matrix_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/593_Valid_Square_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/652_Find_Duplicate_subtrees_medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/KnapSack/494_Target_Sum_medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/KnapSack/494_Target_Sum_medium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +89,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$singlyLinkedList_learning_notes.coverage" NAME="singlyLinkedList_learning_notes Coverage Results" MODIFIED="1598923380156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_list" />
     <SUITE FILE_PATH="coverage/LeetCode$Assemble_team.coverage" NAME="Assemble_team Coverage Results" MODIFIED="1631566794214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon_OA" />
     <SUITE FILE_PATH="coverage/LeetCode$448_Find_all_numbers_disappeared_in_an_array_easy.coverage" NAME="724_find_pivot_index_easy Coverage Results" MODIFIED="1578023004890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeetCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1635798099862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1637197710458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Binary_Search_Learning_Note.coverage" NAME="744_Find_Smallest_Letter_Greater_Than_Target_easy Coverage Results" MODIFIED="1593834226430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary_Search" />
     <SUITE FILE_PATH="coverage/LeetCode$reducerTheNumber.coverage" NAME="reducerTheNumber Coverage Results" MODIFIED="1612203903934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_signal_problems" />
     <SUITE FILE_PATH="coverage/LeetCode$insertA.coverage" NAME="insertA Coverage Results" MODIFIED="1614189217821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wayfairOA" />
@@ -146,89 +128,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google/386_shuffle_an_array.py">
+        <entry file="file://$PROJECT_DIR$/Dynamic_Programming/KnapSack/377_combination_sum_IV_medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="221">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google/394_Decode_string_medium.py">
+        <entry file="file://$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="39" />
+            <state relative-caret-position="221">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_ground.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test2.py">
+        <entry file="file://$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="204">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google_OA/delete_b.py">
+        <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/343_Integer_Break_medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="646">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google_OA/1877_Minimize_Maximum_Pair_Sum_in_Array.py">
+        <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/279_Perfect_Squares_medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="612">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google_OA/split_integer.py">
+        <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/91_Decode_ways_medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="408">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon_OA/discount.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Fibonacci/213_House_Robber_II_medium.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon_OA/Fill_the_truck.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon_OA/optimal_utilization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Binary_Tree/Potential_Double_Recursion_Problems/124_Binary_Tree_Maximum_Path_Sum_hard.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -257,17 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Amazon_OA/optimal_utilization.py" />
-        <option value="$PROJECT_DIR$/Amazon_OA/Split_parentheses.py" />
-        <option value="$PROJECT_DIR$/Dynamic_Programming/1043_Partition_array_for_maximum_sum.py" />
-        <option value="$PROJECT_DIR$/Salesforce/1328_Break_a_Palindrome_medium.py" />
-        <option value="$PROJECT_DIR$/Salesforce/test.py" />
-        <option value="$PROJECT_DIR$/Salesforce/1328_break_a_palindrome_medium.py" />
-        <option value="$PROJECT_DIR$/Salesforce/1710_Maximum_unit_on_a_truck_easy.py" />
-        <option value="$PROJECT_DIR$/Salesforce/1629_slowest_key_easy.py" />
-        <option value="$PROJECT_DIR$/Amazon_OA/1629_slowest_key_easy.py" />
-        <option value="$PROJECT_DIR$/Salesforce/441_arranging_coins_easy.py" />
-        <option value="$PROJECT_DIR$/Salesforce/1413_min_value_to_get_positive_step_by_step_sum_easy.py" />
         <option value="$PROJECT_DIR$/Graph/1135_Connecting_Cities_With_Minimum_Cost_medium.py" />
         <option value="$PROJECT_DIR$/Amazon_OA/696_Count_Binary_substrings_easy.py" />
         <option value="$PROJECT_DIR$/Amazon_OA/discount.py" />
@@ -308,14 +275,25 @@
         <option value="$PROJECT_DIR$/Google/386_shuffle_an_array.py" />
         <option value="$PROJECT_DIR$/Google/394_Decode_string_medium.py" />
         <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/Google/562_Longest_Line_of_consecutive_one_in_matrix_medium.py" />
+        <option value="$PROJECT_DIR$/Google/593_Valid_Square_medium.py" />
+        <option value="$PROJECT_DIR$/Google/652_Find_Duplicate_subtrees_medium.py" />
+        <option value="$PROJECT_DIR$/Google/366_Find_leaves_of_Binary_tree_medium.py" />
+        <option value="$PROJECT_DIR$/Google/1110_Delete_Nodes_and_return_forest_medium.py" />
+        <option value="$PROJECT_DIR$/Google/299_Bulls_and_cows_medium.py" />
+        <option value="$PROJECT_DIR$/Dynamic_Programming/KnapSack/494_Target_Sum_medium.py" />
+        <option value="$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py" />
+        <option value="$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py" />
+        <option value="$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py" />
+        <option value="$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="92" />
+    <option name="x" value="1280" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="1347" />
+    <option name="height" value="1344" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -328,6 +306,17 @@
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Dynamic_Programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Dynamic_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="longest_increasing_subsequence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -348,17 +337,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Search/DFS" />
+      <recent name="$PROJECT_DIR$/Amazon_OA" />
+      <recent name="$PROJECT_DIR$/Two_pointers_technique" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wayfair" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming/Matrix_path" />
       <recent name="$PROJECT_DIR$/Search/BFS/Non-abstract_BFS_problems" />
       <recent name="$PROJECT_DIR$/Search/BFS/Abstract_BFS_problems" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Search/DFS" />
-      <recent name="$PROJECT_DIR$/Amazon_OA" />
-      <recent name="$PROJECT_DIR$/Two_pointers_technique" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1089,6 +1078,19 @@
       <workItem from="1635793315972" duration="2570000" />
       <workItem from="1635869630955" duration="15000" />
       <workItem from="1636596365584" duration="9000" />
+      <workItem from="1636682944655" duration="73000" />
+      <workItem from="1636741999583" duration="4000" />
+      <workItem from="1637177481365" duration="1501000" />
+      <workItem from="1637203900289" duration="1022000" />
+      <workItem from="1637270143259" duration="383000" />
+      <workItem from="1637341006650" duration="2588000" />
+      <workItem from="1637414831028" duration="6367000" />
+      <workItem from="1637524936858" duration="1631000" />
+      <workItem from="1637606830592" duration="5159000" />
+      <workItem from="1637945805400" duration="2716000" />
+      <workItem from="1638036690739" duration="3204000" />
+      <workItem from="1638547029329" duration="2688000" />
+      <workItem from="1638637973103" duration="4148000" />
     </task>
     <task id="LOCAL-00062" summary="add 128">
       <created>1592418253774</created>
@@ -1437,18 +1439,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="921627000" />
+    <option name="totallyTimeSpent" value="953111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="92" width="1280" height="1347" extended-state="0" />
-    <editor active="true" />
+    <frame x="1280" y="23" width="1280" height="1344" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.3562197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.38772213" />
       <window_info id="Structure" order="1" sideWeight="0.5018657" side_tool="true" weight="0.2714055" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.26454183" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.264377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.326257" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1457,7 +1458,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18029115" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.3385475" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33067092" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.35267857" />
       <window_info anchor="bottom" id="ExcelReader" order="13" visible="true" weight="0.033707865" />
       <window_info anchor="right" x="0" y="0" width="270" height="785" id="Documentation" order="0" side_tool="true" weight="0.32873377" />
@@ -1601,292 +1602,31 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Math/1109_Corporate_Flight_Bookings_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/163_Missing_ranges_easy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sliding_Window/239_Sliding_Window_Maximum_hard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/200_Number_Of_Islands_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/547_Friend_Circles_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/696_Count_Binary_substrings_easy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/323_Number_of_connected_components_in_an_undirected_graph_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/994_Rotting_oranges.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/1010_Pairs_of_songs_with_total_duration_divisible_by_60_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/1041_Robot_bounded_in_circle_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/1135_Connecting_Cities_With_Minimum_Cost_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/1465_Max_Area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/caesar_cipher_encryption.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linked_list/21_merge_two_sorted_lists_easy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code_signal_problems/coolFeature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code_signal_problems/concatenate_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code_signal_problems/num_of_subarray_with_occurance_of_single_num_more_than_K.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code_signal_problems/rotateNum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/1629_slowest_key_easy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/Assemble_team.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/AWS_encoding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/decode_encoded_string.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/secret_array.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/shopping_options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/split_into_two.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/Split_parentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/Bad_numbers_within_a_range.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/max_investment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/MaxProfitWheel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/split_into_unique_primes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/reassign_priority.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/optimization_box_weight.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon_OA/num_of_nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robinhood_karat/course_schedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robinhood_karat/access_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robinhood_karat/badge_access.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_OA/largest_K.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robinhood_karat/1801_Number_of_orders_in_the_backlog_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robinhood_karat/house_trade.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robinhood_karat/margin_call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robinhood_karat/trade_stock.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google/386_shuffle_an_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google/394_Decode_string_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ground.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/google_OA/delete_b.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/593_Valid_Square_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Pre_In_Post-order_Iterative_Traversal/145_binary_tree_postorder_traversal_hard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Binary_tree_learning_notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1925,10 +1665,265 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Pre_In_Post-order_Iterative_Traversal/94_Binary_tree_inorder_Taversal_medium.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Pre_In_Post-order_Iterative_Traversal/144_Binary_tree_preorder_traversal_medium.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Breadth_First_Search_Typical_Problems/637_Average_of_levels_in_binary_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Breadth_First_Search_Typical_Problems/513_Find_Bottom_Left_Tree_Value_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Breadth_First_Search_Typical_Problems/111_Minimum_depth_of_a_binary_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Potential_Double_Recursion_Problems/687_Longest_Univalue_Path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Basic_Single_Recursion_Problems/Returning_value(calculate_property)/104_maximum_depth_of_binary_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Basic_Single_Recursion_Problems/Returning_boolean(check_property)/110_Balanced_binary_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Basic_Single_Recursion_Problems/Returning_node(modify_stratructure)/226_Invert_binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Basic_Single_Recursion_Problems/Return_nothing(only_for_iteration)/671_Second_Minimum_Node_in_a_binary_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Potential_Double_Recursion_Problems/437_Path_sum_III_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="62" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Potential_Double_Recursion_Problems/543_Diameter_of_binary_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Basic_Single_Recursion_Problems/Return_nothing(only_for_iteration)/404_sum_of_left_leaves_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Basic_Single_Recursion_Problems/Returning_node(modify_stratructure)/617_merge_two_binary_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Basic_Single_Recursion_Problems/Returning_boolean(check_property)/101_Symmetric_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Potential_Double_Recursion_Problems/572_Subtree_of_another_tree_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Tree_and_DP_together/337_House_Robber_III_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/652_Find_Duplicate_subtrees_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="94" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/366_Find_leaves_of_Binary_tree_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1110_Delete_Nodes_and_return_forest_medium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/299_Bulls_and_cows_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Fibonacci/70_Climbing_Stairs_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Matrix_path/64_Minimum_Path_sum_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Matrix_path/62_Unique_Paths_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Array_interval/303_Range_Sum_Query_Immutable_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Fibonacci/198_House_Robber_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/longest_increasing_subsequence/646_Maximum_Length_of_pair_chain_medium.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/KnapSack/474_ones_and_zeros_medium.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Array_interval/413_Arithmetic_Slices_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/KnapSack/416_Partition_equal_subset_sum_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/KnapSack/494_Target_Sum_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/KnapSack/518_coin_change_2_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/KnapSack/377_combination_sum_IV_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/343_Integer_Break_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/279_Perfect_Squares_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/91_Decode_ways_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Fibonacci/213_House_Robber_II_medium.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Tree/Potential_Double_Recursion_Problems/124_Binary_Tree_Maximum_Path_Sum_hard.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
