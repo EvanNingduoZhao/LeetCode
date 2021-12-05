@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fc28d6-00ab-44b9-853e-07747f8a0590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/1110_Delete_Nodes_and_return_forest_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/299_Bulls_and_cows_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/366_Find_leaves_of_Binary_tree_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/562_Longest_Line_of_consecutive_one_in_matrix_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/593_Valid_Square_medium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Google/652_Find_Duplicate_subtrees_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/1277_Count_Square_Submatrics_With_All_Ones_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/1937_Maximum_Number_of_points_with_cost_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/388_Longest_Absolute_File_Path_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google/690_Employee_Importance_medium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/KnapSack/494_Target_Sum_medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/KnapSack/494_Target_Sum_medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,55 +121,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dynamic_Programming/KnapSack/377_combination_sum_IV_medium.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google/1937_Maximum_Number_of_points_with_cost_medium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google/1277_Count_Square_Submatrics_With_All_Ones_medium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google/690_Employee_Importance_medium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py">
+        <entry file="file://$PROJECT_DIR$/Google/388_Longest_Absolute_File_Path_medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/343_Integer_Break_medium.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="950">
+              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -235,10 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Graph/1135_Connecting_Cities_With_Minimum_Cost_medium.py" />
-        <option value="$PROJECT_DIR$/Amazon_OA/696_Count_Binary_substrings_easy.py" />
-        <option value="$PROJECT_DIR$/Amazon_OA/discount.py" />
-        <option value="$PROJECT_DIR$/Amazon_OA/1010_Pairs_of_songs_with_total_duration_divisible_by_60_medium.py" />
         <option value="$PROJECT_DIR$/wayfair/test3.py" />
         <option value="$PROJECT_DIR$/Amazon_OA/1465_Max_Area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts_medium.py" />
         <option value="$PROJECT_DIR$/Amazon_OA/1041_Robot_bounded_in_circle_medium.py" />
@@ -286,6 +275,10 @@
         <option value="$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py" />
         <option value="$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py" />
         <option value="$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py" />
+        <option value="$PROJECT_DIR$/Google/1937_Maximum_Number_of_points_with_cost_medium.py" />
+        <option value="$PROJECT_DIR$/Google/1277_Count_Square_Submatrics_With_All_Ones_medium.py" />
+        <option value="$PROJECT_DIR$/Google/690_Employee_Importance_medium.py" />
+        <option value="$PROJECT_DIR$/Google/388_Longest_Absolute_File_Path_medium.py" />
       </list>
     </option>
   </component>
@@ -1090,14 +1083,8 @@
       <workItem from="1637945805400" duration="2716000" />
       <workItem from="1638036690739" duration="3204000" />
       <workItem from="1638547029329" duration="2688000" />
-      <workItem from="1638637973103" duration="4148000" />
-    </task>
-    <task id="LOCAL-00062" summary="add 128">
-      <created>1592418253774</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1592418253774</updated>
+      <workItem from="1638637973103" duration="6167000" />
+      <workItem from="1638721194987" duration="908000" />
     </task>
     <task id="LOCAL-00063" summary="change BT/BST problems file structure second attempt">
       <created>1592594871416</created>
@@ -1435,16 +1422,24 @@
       <option name="project" value="LOCAL" />
       <updated>1631470647165</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="added many google tag questions">
+      <created>1638646987378</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1638646987379</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="953111000" />
+    <option name="totallyTimeSpent" value="956038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1344" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.38772213" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.39418417" />
       <window_info id="Structure" order="1" sideWeight="0.5018657" side_tool="true" weight="0.2714055" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1498,7 +1493,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 213" />
     <MESSAGE value="add 634(错排信件)和母牛生产" />
     <MESSAGE value="add 64" />
     <MESSAGE value="modified 198" />
@@ -1523,7 +1517,8 @@
     <MESSAGE value="added many new problems" />
     <MESSAGE value="added many new problems 2" />
     <MESSAGE value="added many new problems 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added many new problems 3" />
+    <MESSAGE value="added many google tag questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added many google tag questions" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1602,34 +1597,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/google_OA/delete_b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google/593_Valid_Square_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary_Tree/Pre_In_Post-order_Iterative_Traversal/145_binary_tree_postorder_traversal_hard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary_Tree/Binary_tree_learning_notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/google_OA/1877_Minimize_Maximum_Pair_Sum_in_Array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1879,6 +1846,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google/1937_Maximum_Number_of_points_with_cost_medium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic_Programming/Dividing_integers/279_Perfect_Squares_medium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1899,31 +1901,24 @@
     <entry file="file://$PROJECT_DIR$/Binary_Tree/Potential_Double_Recursion_Problems/124_Binary_Tree_Maximum_Path_Sum_hard.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google/418_Sentence_Screen_Fitting_medium.py">
+    <entry file="file://$PROJECT_DIR$/Google/1277_Count_Square_Submatrics_With_All_Ones_medium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="561">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google/1048_Longest_String_Chain_medium.py">
+    <entry file="file://$PROJECT_DIR$/Google/690_Employee_Importance_medium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="459">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google/1218_Longest_Arithmetic_Subsequence_Of_Given_Length_medium.py">
+    <entry file="file://$PROJECT_DIR$/Google/388_Longest_Absolute_File_Path_medium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google/1525_Number_Of_Good_Ways_To_Split_A_String_medium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="950">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
         </state>
       </provider>
     </entry>

@@ -39,6 +39,7 @@ class Solution:
                 numOfWays+=1
         return numOfWays
 
+# 第二种办法是自己写的，属于不那么标准的dp，但是也是efficient的，不用看了
 class Solution:
     def numSplits(self, s: str) -> int:
         pMap = {}
